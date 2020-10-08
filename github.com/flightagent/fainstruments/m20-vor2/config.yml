@@ -1,0 +1,39 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: vor2
+    pos: 
+      x: 1621
+      y: -3
+    dimensions:
+      width: 283
+      height: 283
+    background: vor_center.png
+    foreground: vor_to.png
+    foreground2: vor_from.png
+    foreground3: vor_err.png
+    rotationdisc:
+      image: vor_hdg.png
+      z: 20
+      infiniterotation: true
+      indicator: vor2
+  - gauge: 
+    name: vor2_needle
+    refobject: vor2
+    rotationdisc:
+      image: vor_needle.png
+      z: 22
+      min: -30
+      minvalue: -127
+      max: 30
+      maxvalue: 127 
+      pos: 
+        x: 141
+        y: 60
+      indicator: vor2needle

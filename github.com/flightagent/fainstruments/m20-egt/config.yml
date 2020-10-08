@@ -1,0 +1,27 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: M20-egt
+    background: egt_small.png
+    foreground: foreground_small.png
+    pos: 
+      x: 9
+      y: 338
+    dimensions:
+      width: 146
+      height: 96
+    rotationdisc:
+      image: needle_small.png
+      z: 20
+      max: 80 
+      maxvalue: 1200
+      pos:
+        x: 70
+        y: 92
+      indicator: egt

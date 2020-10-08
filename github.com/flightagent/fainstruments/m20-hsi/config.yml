@@ -1,0 +1,58 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: hsi
+    pos: 
+      x: 797
+      y: 335
+    dimensions:
+      width: 265
+      height: 265
+    foreground: hsi_hdg_err.png
+    foreground2: hsi_nav_err.png
+    #foreground2indicator: 
+    foreground3: hsi_plane.png          
+    foreground4: hsi_panel.png
+    foreground5: hsi_gs.png
+    rotationdisc:
+      image: hsi_hdg.png
+      z: 20
+      ccw: true
+      infiniterotation: true
+      minvalue: 0
+      maxvalue: 359.9
+      indicator: hdg
+  - gauge: 
+    name: hsi_hdga
+    refobject: hsi
+    rotationdisc:
+      image: hsi_hdga.png
+      z: 21
+      indicator: hdga  
+  - gauge: 
+    name: hsi_center
+    refobject: hsi
+    rotationdisc:
+      image: hsi_center.png
+      z: 22
+      indicator: hsi_hdg_vor  
+  - gauge: 
+    name: hsi_vor_hdg
+    refobject: hsi
+    rotationdisc:
+      image: hsi_vor_hdg.png
+      z: 23
+      indicator: hsivorhdg
+  - gauge: 
+    name: hsi_vor_displ
+    refobject: hsi
+    rotationdisc:
+      image: hsi_vor_displ.png
+      z: 24
+      indicator: hsivordispl

@@ -1,0 +1,30 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: adf
+    pos: 
+      x: 1621
+      y: 316
+    dimensions:
+      width: 281
+      height: 281
+    background: adf_background.png
+    foreground: adf_fg.png
+    rotationdisc:
+      image: adf.png
+      z: 20
+      infiniterotation: true
+      indicator: adf
+  - gauge: 
+    name: adf_needle
+    refobject: adf
+    rotationdisc:
+      image: adf_needle.png
+      z: 21
+      indicator: adf

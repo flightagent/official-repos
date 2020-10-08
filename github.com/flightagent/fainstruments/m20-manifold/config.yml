@@ -1,0 +1,38 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: manpress
+    #disabled: true
+    pos: 
+      x: 2114
+      y: 18
+    dimensions:
+      width: 253
+      height: 253
+    background: manpress_background.png
+    rotationdisc:
+      image: needle_down.png
+      z: 20
+      min: 0
+      max: 172
+      minvalue: 10
+      maxvalue: 35
+      indicator: manpress
+  - gauge: 
+    disabled: false
+    name: fuelpress
+    refobject: manpress
+    rotationdisc:
+      image: needle_down.png
+      z: 20
+      min: -10
+      max: -179
+      minvalue: 0
+      maxvalue: 60
+      indicator: fuelpress

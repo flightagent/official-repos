@@ -1,0 +1,29 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: M20-oat
+    background: oat_small.png
+    foreground: foreground_small.png
+    pos: 
+      x: 16
+      y: 500
+    dimensions:
+      width: 140
+      height: 92
+    rotationdisc:
+      image: needle_center.png
+      z: 20
+      min: -38.5
+      minvalue: -50 
+      max: 38.5
+      maxvalue: 50
+      pos:
+        x: 70
+        y: 92
+      indicator: oat

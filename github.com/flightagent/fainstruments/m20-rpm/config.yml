@@ -1,0 +1,23 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: tachometer
+    pos: 
+      x: 2114
+      y: 343
+    dimensions:
+      width: 251
+      height: 251
+    background: tachometer.png
+    rotationdisc:
+      image: needle_tachometer.png
+      z: 20
+      max: 250 
+      maxvalue: 3500 
+      indicator: rpm

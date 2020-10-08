@@ -1,0 +1,46 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: altimeter_100s
+    background: altimeter.png
+    pos: 
+      x: 1282
+      y: 16
+    dimensions:
+      width: 254
+      height: 254
+    rotationdisc:
+      image: needle_altimeter_hundred.png
+      z: 20
+      infiniterotation: true
+      max: 360 
+      maxvalue: 1000
+      indicator: alt
+  - gauge: 
+    name: altimeter_1000s
+    refobject: altimeter_100s
+    rotationdisc:
+      image: needle_altimeter_thousands.png
+      z: 21
+      maxvalue: 10000
+      indicator: alt
+  - gauge: 
+    name: altimeter_inches
+    refobject: altimeter_100s
+    rotationdisc:
+      image: altimeter_inches.png
+      z: 5
+      min: 5
+      minvalue: 28
+      max: 360
+      maxvalue: 38.5
+      pos:
+        x: 127
+        y: 127
+      indicator: inHg

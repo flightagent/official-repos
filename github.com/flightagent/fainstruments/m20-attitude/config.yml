@@ -1,0 +1,66 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: attitude
+    foreground: attitude_foreground.png
+    pos: 
+      x: 797
+      y: 9
+    dimensions:
+      width: 265
+      height: 265
+    rotationdisc:
+      image: attitude_bank.png
+      z: 20
+      min: -180
+      minvalue: -180
+      max: 180
+      maxvalue: 180
+      indicator: bank
+  - gauge: 
+    name: attitude_bkg
+    refobject: attitude
+    rotationdisc:
+      image: attitude_background.png
+      z: 15
+      min: -180
+      minvalue: -180
+      max: 180
+      maxvalue: 180
+      indicator: bank
+  - gauge: 
+    name: attitude_pitch
+    refobject: attitude
+    rotationdisc:
+      image: attitude_pitch.png
+      z: 18
+      min: -180
+      minvalue: -180
+      max: 180
+      maxvalue: 180
+      indicator: bank
+      ymove: 
+        indicator: pitch
+        min: -60
+        inverted: true
+        minvalue: -20
+        max: 60
+        maxvalue: 20
+  - gauge: 
+    name: attitude_hor
+    refobject: attitude
+    rotationdisc:
+      image: attitude_hor.png
+      z: 50
+      ymove: 
+        indicator: attbars
+        min: 10
+        minvalue: -10
+        max: -10
+        maxvalue: 10

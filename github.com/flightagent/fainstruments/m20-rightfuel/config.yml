@@ -1,0 +1,28 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge:
+    name: M20-rightfuel
+    background: fuel_small.png
+    foreground: foreground_small.png
+    pos: 
+      x: 183
+      y: 13
+    dimensions:
+      width: 140
+      height: 92
+    rotationdisc:
+      image: needle_small.png
+      z: 20
+      max: 80 # degress from starting position 0, starts position always 0 if nothing else indicated
+      maxvalue: 23 # max value in gallons, to make calcualtions, is it possible to get from plane, but inefficient
+      pos:
+        x: 70
+        y: 92
+      indicator: righttank
+      units: gal

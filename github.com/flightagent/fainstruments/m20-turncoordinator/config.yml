@@ -1,0 +1,39 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: turncoordinator
+    foreground: turncordinator.png
+    pos: 
+      x: 468
+      y: 334
+    dimensions:
+      width: 253
+      height: 253
+    rotationdisc:
+      image: turncordinator_plane.png
+      z: 130
+      min: -180
+      minvalue: -180
+      max: 180
+      maxvalue: 180
+      indicator: bank
+  - gauge: 
+    name: turncoordinator_ball
+    refobject: turncoordinator
+    rotationdisc:
+      image: turncordinator_slide.png
+      z: 120
+      min: -19
+      minvalue: -127
+      max: 19
+      maxvalue: 127
+      pos:
+        x: 127
+        y: -20
+      indicator: tcb

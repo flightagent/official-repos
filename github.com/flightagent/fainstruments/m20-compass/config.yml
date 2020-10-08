@@ -1,0 +1,26 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: compass
+    pos: 
+      x: 1902
+      y: 207
+    dimensions:
+      width: 203
+      height: 203
+    foreground: compass_foreground.png
+    rotationdisc:
+      image: compass_disc.png
+      z: 20
+      max: 80 
+      maxvalue: 23 
+      pos:
+        x: 140
+        y: 140
+      indicator: hdgmag

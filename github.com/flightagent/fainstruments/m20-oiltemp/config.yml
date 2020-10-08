@@ -1,0 +1,29 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: M20-oil-temp
+    background: oil_temp.png
+    foreground: foreground_small.png
+    pos: 
+      x: 12
+      y: 180
+    dimensions:
+      width: 140
+      height: 92
+    rotationdisc:
+      image: needle_small.png
+      z: 20
+      min: 0
+      minvalue: 145
+      max: 76
+      maxvalue: 255 
+      pos:
+        x: 70
+        y: 92
+      indicator: oiltemp

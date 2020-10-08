@@ -1,0 +1,29 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge:
+    name: M20-amps
+    background: amps_small.png
+    foreground: foreground_small.png
+    pos: 
+      x: 167
+      y: 511
+    dimensions:
+      width: 162
+      height: 108
+    rotationdisc:
+      image: needle_center.png
+      z: 20
+      min: -43
+      minvalue: -70
+      max: 43
+      maxvalue: 70
+      pos:
+        x: 70
+        y: 92
+      indicator: amps

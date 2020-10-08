@@ -1,0 +1,48 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+gauges:
+  - gauge: 
+    name: m20-airspeed
+    foreground: airspeed.png
+    pos: 
+      x: 465
+      y: 14
+    dimensions:
+      width: 253
+      height: 253
+    rotationdisc:
+      image: needle.png
+      z: 120
+      min: 0
+      minvalue: 22
+      max: 338
+      maxvalue: 212
+      polynomial:
+        active: true
+        a0: -85.94350
+        a1: 2.82850
+        a2: -0.00392
+      indicator: spd
+      units: kn
+  - gauge: 
+    name: airspeed_press
+    refobject: m20-airspeed
+    rotationdisc:
+      image: airspeed_back.png
+      z: 10
+      min: 0
+      minvalue: 22
+      max: 338
+      maxvalue: 212
+      polynomial:
+        active: true
+        a0: -85.94350
+        a1: 2.82850
+        a2: -0.00392
+      indicator: spd
+      units: kn
