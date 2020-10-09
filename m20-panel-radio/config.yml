@@ -20,8 +20,9 @@ panel:
         width: 138
         height: 52
       font:
+        family: radiofont
+        size: 30px
         color: red
-        italic: false
       indicator: com1_use
     - label: 
       name: com1_stby
@@ -33,130 +34,345 @@ panel:
         height: 52
       font:
         color: red
-        italic: false
+        family: radiofont
+        size: 30px
       indicator: com1_stby
     - label: 
       name: com2_use
       pos: 
-        x: 0
-        y: 7
+        x: 1
+        y: 150
       dimensions:
         width: 137
         height: 52
       font:
         color: red
-        italic: false
+        family: radiofont
+        size: 30px
       indicator: com2_use
     - label: 
       name: com2_stby
       pos: 
         x: 167
-        y: 7
+        y: 150
       dimensions:
         width: 137
         height: 52
       font:
         color: red
-        italic: false
+        family: radiofont
+        size: 30px
       indicator: com2_stby
     - label: 
       name: nav1_use
       pos: 
-        x: -7
+        x: 350
         y: 7
       dimensions:
         width: 137
         height: 52
       font:
         color: red
-        italic: false
+        family: radiofont
+        size: 30px
       indicator: nav1_use
     - label: 
       name: nav1_stby
       pos: 
-        x: 167
+        x: 517
         y: 7
       dimensions:
         width: 137
         height: 52
       font:
-        italic: false
+        family: radiofont
+        size: 30px
         color: red
       indicator: nav1_stby
     - label: 
       name: nav2_use
       pos: 
-        x: 1
-        y: 7
+        x: 350
+        y: 150
       dimensions:
         width: 137
         height: 52
       font:
-        italic: false
+        family: radiofont
+        size: 30px
         color: red
       indicator: nav2_use
     - label: 
       name: nav2_stby
       pos: 
-        x: 167
-        y: 7
+        x: 517
+        y: 150
       dimensions:
         width: 137
         height: 52
       font:
-        italic: false
+        family: radiofont
+        size: 30px
         color: red
       indicator: nav2_stby
     - label: 
       name: dme_nm
       pos: 
-        x: 19
-        y: 32
+        x: 700
+        y: 210
       dimensions:
         width: 34
         height: 22
       font:
         color: red
-        italic: false
+        family: radiofont
+        size: 30px
       text: NM
     - label: 
       name: dme_dist
       pos: 
-        x: 6
-        y: -8
+        x: 750
+        y: 210
       dimensions:
         width: 66
         height: 52
       font:
-        italic: false
+        family: radiofont
+        size: 30px
         color: red
       indicator: dme_nm
     - label: 
       name: dme_kt
       pos: 
-        x: 154
-        y: 32
+        x: 790
+        y: 210
       dimensions:
         width: 30
         height: 22
       font:
         color: red
-        italic: false
+        family: radiofont
+        size: 30px
       text: KT
     - label: 
       name: dme_kt_value
       pos: 
-        x: 139
-        y: -8
+        x: 810
+        y: 210
       dimensions:
         width: 67
         height: 52          
       font:
         color: red
-        italic: false
+        family: radiofont
+        size: 30px
       indicator: dme_kt
-      
-#TOP=-564
-#LEFT=837
-#WIDTH=1270
-#HEIGHT=561
+    - label: 
+      name: xpdr
+      pos: 
+        x: 810
+        y: 120
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        color: red
+        family: radiofont
+        size: 30px
+      indicator: xpdr
+    - label: 
+      name: adf_use
+      pos: 
+        x: 630
+        y: 1
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        color: red
+        family: radiofont
+        size: 30px
+      indicator: adf_use
+    - label: 
+      name: adf_stdby
+      pos: 
+        x: 810
+        y: 1
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        color: red
+        family: radiofont
+        size: 30px
+      indicator: adf_stdby
+    - label: 
+      name: ap_alt
+      pos: 
+        x: 300
+        y: 260
+      dimensions:
+        width: 67
+        height: 52
+      font:
+        color: red
+        family: radiofont
+        size: 30px
+      indicator: ap_alt
+    - label: 
+      name: ap_alt_lp
+      pos: 
+        x: 280
+        y: 270
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        color: red
+        family: arial
+        size: 15px
+        weight: 900
+      text: ALT
+    - label: 
+      name: ap_alt_l
+      pos: 
+        x: 390
+        y: 270
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        color: red
+        family: arial
+        size: 15px
+        weight: 900
+      text: FT
+    - label: 
+      name: ap_fpm
+      pos: 
+        x: 300
+        y: 290
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        color: red
+        family: radiofont
+        size: 30px
+      indicator: ap_fpm
+    - label: 
+      name: ap_fpm_l
+      pos: 
+        x: 380
+        y: 300
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        color: red
+        family: arial
+        size: 15px
+        weight: 900
+      text: FPM
+    - label: 
+      name: ap_fpm_lp
+      pos: 
+        x: 280
+        y: 300
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        color: red
+        family: arial
+        size: 15px
+        weight: 900
+      text: VS
+    - label: 
+      name: ap_hdgl
+      pos: 
+        x: 100
+        y: 280
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        color: red
+        family: arial
+        size: 15px
+        weight: 900
+      text: HDG
+    - label: 
+      name: ap_hdg
+      pos: 
+        x: 120
+        y: 270
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        color: red
+        family: radiofont
+        size: 30px
+        weight: 900
+      indicator: hdg
+    - label: 
+      name: gear_down
+      pos: 
+        x: 620
+        y: 300
+      dimensions:
+        width: 47
+        height: 52          
+      font:
+        color: green
+        family: arial
+        size: 15px
+        weight: 900
+      indicator: gear_down
+      text: GEAR DN
+    - label: 
+      name: gear_unsafe
+      pos: 
+        x: 650
+        y: 300
+      dimensions:
+        width: 47
+        height: 52          
+      font:
+        color: #303030
+        family: arial
+        size: 15px
+        weight: 900
+      indicator: gear_unsafe
+      text: GEAR UNSAFE
+    - label: 
+      name: leftfuel_warn
+      pos: 
+        x: 680
+        y: 300
+      dimensions:
+        width: 47
+        height: 52          
+      font:
+        color: #303030
+        family: arial
+        size: 15px
+        weight: 900
+      indicator: leftfuel
+      text: LEFT FUEL
+    - label: 
+      name: rightfuel_warn
+      pos: 
+        x: 710
+        y: 300
+      dimensions:
+        width: 46
+        height: 52          
+      font:
+        color: #303030
+        family: arial
+        size: 15px
+        weight: 900
+      indicator: righttfuel
+      text: RIGHT FUEL
