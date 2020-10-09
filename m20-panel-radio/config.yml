@@ -1,0 +1,162 @@
+author: flightagent
+date: 2020-10-08 
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+panel:
+  name: M20-panel-radio
+  position:
+    x: 0
+    y: 0
+  labels:
+    - label: 
+      name: com1_use
+      pos: 
+        x: 1
+        y: 7
+      dimensions:
+        width: 138
+        height: 52
+      font:
+        color: red
+        italic: false
+      indicator: com1_use
+    - label: 
+      name: com1_stby
+      pos: 
+        x: 167
+        y: 7
+      dimensions:
+        width: 138
+        height: 52
+      font:
+        color: red
+        italic: false
+      indicator: com1_stby
+    - label: 
+      name: com2_use
+      pos: 
+        x: 0
+        y: 7
+      dimensions:
+        width: 137
+        height: 52
+      font:
+        color: red
+        italic: false
+      indicator: com2_use
+    - label: 
+      name: com2_stby
+      pos: 
+        x: 167
+        y: 7
+      dimensions:
+        width: 137
+        height: 52
+      font:
+        color: red
+        italic: false
+      indicator: com2_stby
+    - label: 
+      name: nav1_use
+      pos: 
+        x: -7
+        y: 7
+      dimensions:
+        width: 137
+        height: 52
+      font:
+        color: red
+        italic: false
+      indicator: nav1_use
+    - label: 
+      name: nav1_stby
+      pos: 
+        x: 167
+        y: 7
+      dimensions:
+        width: 137
+        height: 52
+      font:
+        italic: false
+        color: red
+      indicator: nav1_stby
+    - label: 
+      name: nav2_use
+      pos: 
+        x: 1
+        y: 7
+      dimensions:
+        width: 137
+        height: 52
+      font:
+        italic: false
+        color: red
+      indicator: nav2_use
+    - label: 
+      name: nav2_stby
+      pos: 
+        x: 167
+        y: 7
+      dimensions:
+        width: 137
+        height: 52
+      font:
+        italic: false
+        color: red
+      indicator: nav2_stby
+    - label: 
+      name: dme_nm
+      pos: 
+        x: 19
+        y: 32
+      dimensions:
+        width: 34
+        height: 22
+      font:
+        color: red
+        italic: false
+      text: NM
+    - label: 
+      name: dme_dist
+      pos: 
+        x: 6
+        y: -8
+      dimensions:
+        width: 66
+        height: 52
+      font:
+        italic: false
+        color: red
+      indicator: dme_nm
+    - label: 
+      name: dme_kt
+      pos: 
+        x: 154
+        y: 32
+      dimensions:
+        width: 30
+        height: 22
+      font:
+        color: red
+        italic: false
+      text: KT
+    - label: 
+      name: dme_kt_value
+      pos: 
+        x: 139
+        y: -8
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        color: red
+        italic: false
+      indicator: dme_kt
+      
+#TOP=-564
+#LEFT=837
+#WIDTH=1270
+#HEIGHT=561

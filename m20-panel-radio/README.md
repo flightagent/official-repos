@@ -1,4 +1,4 @@
-# M20 panel for Flight Agent
+# M20 radio panel for Flight Agent
 
 ## Setup
 
@@ -8,7 +8,7 @@ Modify config.yml and add in modules section:
   panels:
     - panel:
       name: repo
-      repository: github.com/flightagent/fainstruments/m20-panel-main
+      repository: github.com/flightagent/fainstruments/m20-panel-radio
 ```
 
 Example image:
