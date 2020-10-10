@@ -301,8 +301,8 @@ panel:
     - label: 
       name: ap_hdgl
       pos: 
-        x: 100
-        y: 280
+        x: 80
+        y: 265
       dimensions:
         width: 67
         height: 52          
@@ -316,7 +316,7 @@ panel:
       name: ap_hdg
       pos: 
         x: 120
-        y: 270
+        y: 260
       dimensions:
         width: 67
         height: 52          
@@ -325,7 +325,7 @@ panel:
         family: radiofont
         size: 30px
         weight: 900
-      indicator: hdg
+      indicator: aphdg
     - label: 
       name: gear_down
       pos: 
