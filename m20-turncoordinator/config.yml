@@ -36,4 +36,4 @@ gauges:
       pos:
         x: 127
         y: -20
-      indicator: tcb
+      indicator: turnball

@@ -12,7 +12,7 @@ panel:
     y: 0
   labels:
     - label: 
-      name: com1_use
+      name: com1use
       pos: 
         x: 1
         y: 7
@@ -23,9 +23,10 @@ panel:
         family: radiofont
         size: 30px
         color: red
-      indicator: com1_use
+      decimals: 2
+      indicator: com1use
     - label: 
-      name: com1_stby
+      name: com1stb
       pos: 
         x: 167
         y: 7
@@ -36,9 +37,10 @@ panel:
         color: red
         family: radiofont
         size: 30px
-      indicator: com1_stby
+      decimals: 2
+      indicator: com1stb
     - label: 
-      name: com2_use
+      name: com2use
       pos: 
         x: 1
         y: 150
@@ -49,9 +51,10 @@ panel:
         color: red
         family: radiofont
         size: 30px
-      indicator: com2_use
+      decimals: 2
+      indicator: com2use
     - label: 
-      name: com2_stby
+      name: com2stb
       pos: 
         x: 167
         y: 150
@@ -62,9 +65,10 @@ panel:
         color: red
         family: radiofont
         size: 30px
-      indicator: com2_stby
+      decimals: 2
+      indicator: com2stb
     - label: 
-      name: nav1_use
+      name: nav1use
       pos: 
         x: 350
         y: 7
@@ -75,9 +79,10 @@ panel:
         color: red
         family: radiofont
         size: 30px
-      indicator: nav1_use
+      decimals: 2
+      indicator: nav1use
     - label: 
-      name: nav1_stby
+      name: nav1stb
       pos: 
         x: 517
         y: 7
@@ -88,9 +93,10 @@ panel:
         family: radiofont
         size: 30px
         color: red
-      indicator: nav1_stby
+      decimals: 2
+      indicator: nav1stb
     - label: 
-      name: nav2_use
+      name: nav2use
       pos: 
         x: 350
         y: 150
@@ -101,9 +107,10 @@ panel:
         family: radiofont
         size: 30px
         color: red
-      indicator: nav2_use
+      decimals: 2
+      indicator: nav2use
     - label: 
-      name: nav2_stby
+      name: nav2stb
       pos: 
         x: 517
         y: 150
@@ -114,7 +121,8 @@ panel:
         family: radiofont
         size: 30px
         color: red
-      indicator: nav2_stby
+      decimals: 2
+      indicator: nav2stb
     - label: 
       name: dme_nm
       pos: 
@@ -125,13 +133,13 @@ panel:
         height: 22
       font:
         color: red
-        family: radiofont
-        size: 30px
+        family: arial
+        size: 15px
       text: NM
     - label: 
-      name: dme_dist
+      name: nav1dme
       pos: 
-        x: 750
+        x: 730
         y: 210
       dimensions:
         width: 66
@@ -140,9 +148,9 @@ panel:
         family: radiofont
         size: 30px
         color: red
-      indicator: dme_nm
+      indicator: nav1dme
     - label: 
-      name: dme_kt
+      name: nav1spd_l
       pos: 
         x: 790
         y: 210
@@ -151,11 +159,11 @@ panel:
         height: 22
       font:
         color: red
-        family: radiofont
-        size: 30px
+        family: arial
+        size: 15px
       text: KT
     - label: 
-      name: dme_kt_value
+      name: nav1spd
       pos: 
         x: 810
         y: 210
@@ -166,7 +174,7 @@ panel:
         color: red
         family: radiofont
         size: 30px
-      indicator: dme_kt
+      indicator: nav1spd
     - label: 
       name: xpdr
       pos: 
@@ -181,7 +189,7 @@ panel:
         size: 30px
       indicator: xpdr
     - label: 
-      name: adf_use
+      name: adf1use
       pos: 
         x: 630
         y: 1
@@ -192,9 +200,10 @@ panel:
         color: red
         family: radiofont
         size: 30px
-      indicator: adf_use
+      decimals: 1
+      indicator: adf1use
     - label: 
-      name: adf_stdby
+      name: adf1stb
       pos: 
         x: 810
         y: 1
@@ -205,7 +214,8 @@ panel:
         color: red
         family: radiofont
         size: 30px
-      indicator: adf_stdby
+      decimals: 1
+      indicator: adf1stb
     - label: 
       name: ap_alt
       pos: 
@@ -213,7 +223,7 @@ panel:
         y: 260
       dimensions:
         width: 67
-        height: 52
+        height: 52          
       font:
         color: red
         family: radiofont
@@ -222,7 +232,7 @@ panel:
     - label: 
       name: ap_alt_lp
       pos: 
-        x: 280
+        x: 270
         y: 270
       dimensions:
         width: 67
@@ -277,7 +287,7 @@ panel:
     - label: 
       name: ap_fpm_lp
       pos: 
-        x: 280
+        x: 270
         y: 300
       dimensions:
         width: 67
@@ -367,7 +377,7 @@ panel:
         x: 710
         y: 300
       dimensions:
-        width: 46
+        width: 47
         height: 52          
       font:
         color: #303030

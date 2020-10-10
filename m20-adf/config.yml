@@ -7,7 +7,7 @@ contact: flightagent.pro@gmail.com
 web: flightagent.com
 gauges:
   - gauge: 
-    name: adf
+    name: m20-adf
     pos: 
       x: 1621
       y: 316
@@ -22,9 +22,9 @@ gauges:
       infiniterotation: true
       indicator: adf
   - gauge: 
-    name: adf_needle
-    refobject: adf
+    name: adf1rad
+    refobject: m20-adf
     rotationdisc:
       image: adf_needle.png
       z: 21
-      indicator: adf
+      indicator: adf1rad

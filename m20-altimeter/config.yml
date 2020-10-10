@@ -36,11 +36,8 @@ gauges:
     rotationdisc:
       image: altimeter_inches.png
       z: 5
-      min: 5
-      minvalue: 28
-      max: 360
-      maxvalue: 38.5
-      pos:
-        x: 127
-        y: 127
+      min: -0.001
+      minvalue: 28.1
+      max: -340
+      maxvalue: 31.5
       indicator: inHg
