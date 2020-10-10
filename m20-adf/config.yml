@@ -20,7 +20,7 @@ gauges:
       image: adf.png
       z: 20
       infiniterotation: true
-      indicator: adf
+      indicator: adfcard
   - gauge: 
     name: adf1rad
     refobject: m20-adf

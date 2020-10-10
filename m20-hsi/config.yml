@@ -35,6 +35,7 @@ gauges:
       image: hsi_hdga.png
       z: 125
       indicator: aphdg
+      relindicator: hdg
   - gauge: 
     name: hsi_center
     refobject: hsi
@@ -55,4 +56,10 @@ gauges:
     rotationdisc:
       image: hsi_vor_displ.png
       z: 24
-      indicator: hsibea #hsicdi
+      indicator: hsibea 
+      xmove:
+        indicator: hsicdi
+        minvalue: -127
+        maxvalue: 127
+        min: -40
+        max: 40
