@@ -14,12 +14,12 @@ gauges:
     dimensions:
       width: 265
       height: 265
-    foreground: hsi_hdg_err.png
-    foreground2: hsi_nav_err.png
+    foreground: hsi_panel.png
+    foreground2: hsi_hdg_err.png
     #foreground2indicator: 
-    foreground3: hsi_plane.png          
-    foreground4: hsi_panel.png
-    foreground5: hsi_gs.png
+    foreground3: hsi_nav_err.png
+    foreground4: hsi_gs.png
+    foreground5: hsi_plane.png  
     rotationdisc:
       image: hsi_hdg.png
       z: 20
@@ -33,7 +33,7 @@ gauges:
     refobject: hsi
     rotationdisc:
       image: hsi_hdga.png
-      z: 125
+      z: 102
       indicator: aphdg
       relindicator: hdg
   - gauge: 
