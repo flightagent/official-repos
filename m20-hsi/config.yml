@@ -18,6 +18,7 @@ gauges:
     foreground2: hsi_hdg_err.png
     #foreground2indicator: 
     foreground3: hsi_nav_err.png
+    foreground3notindicator: nav1sgn
     foreground4: hsi_gs.png
     foreground5: hsi_plane.png  
     rotationdisc:
@@ -51,15 +52,32 @@ gauges:
       z: 23
       indicator: hsibea
   - gauge: 
-    name: hsi_vor_displ
+    name: hsi_to
+    refobject: hsi
+    rotationdisc:
+      image: hsi_to.png
+      visibleindicator: nav1tf 
+      z: 23
+      indicator: hsibea
+  - gauge: 
+    name: hsi_from
+    refobject: hsi
+    rotationdisc:
+      image: hsi_from.png
+      visiblenotindicator: nav1tf 
+      z: 23
+      indicator: hsibea
+  - gauge: 
+    name: hsi_center
     refobject: hsi
     rotationdisc:
       image: hsi_vor_displ.png
       z: 24
-      indicator: hsibea 
+      indicator: hsibea
       xmove:
         indicator: hsicdi
         minvalue: -127
         maxvalue: 127
         min: -40
         max: 40
+      

@@ -16,8 +16,11 @@ gauges:
       height: 283
     background: vor_center.png
     foreground: vor_to.png
+    foregroundindicator: nav2tf
     foreground2: vor_from.png
+    foreground2notindicator: nav2tf
     foreground3: vor_err.png
+    foreground3notindicator: nav2sgn
     rotationdisc:
       image: vor_hdg.png
       z: 20
