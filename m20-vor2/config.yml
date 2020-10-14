@@ -21,10 +21,13 @@ gauges:
     rotationdisc:
       image: vor_hdg.png
       z: 20
+      indicator: nav2obs
+      ccw: true
       infiniterotation: true
-      indicator: vor2
+      minvalue: 0
+      maxvalue: 359.9
   - gauge: 
-    name: vor2_needle
+    name: nav2cdi
     refobject: vor2
     rotationdisc:
       image: vor_needle.png
@@ -32,8 +35,9 @@ gauges:
       min: -30
       minvalue: -127
       max: 30
-      maxvalue: 127 
+      maxvalue: 127
       pos: 
         x: 141
         y: 60
-      indicator: vor2needle
+      indicator: nav2cdi
+      ccw: true
