@@ -20,7 +20,10 @@ gauges:
       image: adf.png
       z: 20
       infiniterotation: true
+      ccw: true
       indicator: adfcard
+      minvalue: 0
+      maxvalue: 359.9
   - gauge: 
     name: adf1rad
     refobject: m20-adf
