@@ -21,6 +21,7 @@ panel:
         height: 52
       font:
         family: radiofont
+        align: right
         size: 30px
         color: red
       decimals: 2
@@ -36,6 +37,7 @@ panel:
       font:
         color: red
         family: radiofont
+        align: right
         size: 30px
       decimals: 2
       indicator: com1stb
@@ -50,6 +52,7 @@ panel:
       font:
         color: red
         family: radiofont
+        align: right
         size: 30px
       decimals: 2
       indicator: com2use
@@ -64,6 +67,7 @@ panel:
       font:
         color: red
         family: radiofont
+        align: right
         size: 30px
       decimals: 2
       indicator: com2stb
@@ -79,6 +83,7 @@ panel:
         color: red
         family: radiofont
         size: 30px
+        align: right
       decimals: 2
       indicator: nav1use
     - label: 
@@ -93,6 +98,7 @@ panel:
         family: radiofont
         size: 30px
         color: red
+        align: right
       decimals: 2
       indicator: nav1stb
     - label: 
@@ -105,6 +111,7 @@ panel:
         height: 52
       font:
         family: radiofont
+        align: right
         size: 30px
         color: red
       decimals: 2
@@ -119,6 +126,7 @@ panel:
         height: 52
       font:
         family: radiofont
+        align: right
         size: 30px
         color: red
       decimals: 2
@@ -146,6 +154,7 @@ panel:
         height: 52
       font:
         family: radiofont
+        align: right
         size: 30px
         color: red
       indicator: nav1dme
@@ -160,6 +169,7 @@ panel:
       font:
         color: red
         family: arial
+        align: right
         size: 15px
       text: KT
     - label: 
@@ -173,12 +183,13 @@ panel:
       font:
         color: red
         family: radiofont
+        align: right
         size: 30px
       indicator: nav1spd
     - label: 
       name: xpdr
       pos: 
-        x: 810
+        x: 860
         y: 120
       dimensions:
         width: 67
@@ -186,12 +197,13 @@ panel:
       font:
         color: red
         family: radiofont
+        align: right
         size: 30px
       indicator: xpdr
     - label: 
       name: adf1use
       pos: 
-        x: 630
+        x: 680
         y: 1
       dimensions:
         width: 67
@@ -199,13 +211,14 @@ panel:
       font:
         color: red
         family: radiofont
+        align: right
         size: 30px
       decimals: 1
       indicator: adf1use
     - label: 
       name: adf1stb
       pos: 
-        x: 810
+        x: 860
         y: 1
       dimensions:
         width: 67
@@ -213,6 +226,7 @@ panel:
       font:
         color: red
         family: radiofont
+        align: right
         size: 30px
       decimals: 1
       indicator: adf1stb
@@ -228,6 +242,7 @@ panel:
         color: red
         family: radiofont
         size: 30px
+        align: right
       indicator: ap_alt
     - label: 
       name: ap_alt_lp
@@ -269,6 +284,7 @@ panel:
         color: red
         family: radiofont
         size: 30px
+        align: right
       indicator: ap_fpm
     - label: 
       name: ap_fpm_l
@@ -323,6 +339,7 @@ panel:
       font:
         color: red
         family: radiofont
+        align: right
         size: 30px
         weight: 900
       indicator: aphdg
@@ -339,6 +356,7 @@ panel:
         family: arial
         size: 15px
         weight: 900
+        align: center
       indicator: gear_down
       text: GEAR DN
     - label: 
@@ -354,6 +372,7 @@ panel:
         family: arial
         size: 15px
         weight: 900
+        align: center
       indicator: gear_unsafe
       text: GEAR UNSAFE
     - label: 
@@ -365,6 +384,7 @@ panel:
         width: 47
         height: 52          
       font:
+        align: center
         color: #303030
         family: arial
         size: 15px
@@ -384,5 +404,6 @@ panel:
         family: arial
         size: 15px
         weight: 900
+        align: center
       indicator: righttfuel
       text: RIGHT FUEL
