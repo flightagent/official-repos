@@ -8,7 +8,9 @@ web: flightagent.com
 gauges:
   - gauge: 
     name: turncoordinator
-    foreground: turncordinator.png
+    background: turncordinator.png
+    foreground: off.png
+    foregroundnotindicator: master
     pos: 
       x: 468
       y: 334
@@ -18,21 +20,23 @@ gauges:
     rotationdisc:
       image: turncordinator_plane.png
       z: 130
-      min: -180
-      minvalue: -180
-      max: 180
-      maxvalue: 180
-      indicator: bank
+      min: -34
+      minvalue: -5.425
+      max: 34
+      maxvalue: 5.425
+      indicator: turnind
+      ccw: false
   - gauge: 
     name: turncoordinator_ball
     refobject: turncoordinator
     rotationdisc:
       image: turncordinator_slide.png
       z: 120
-      min: -19
-      minvalue: -127
-      max: 19
-      maxvalue: 127
+      min: -20
+      minvalue: -117
+      max: 20
+      maxvalue: 117
+      ccw: true
       pos:
         x: 127
         y: -20

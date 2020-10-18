@@ -9,6 +9,7 @@ gauges:
   - gauge: 
     name: attitude
     foreground: attitude_foreground.png
+    foreground2: centered.png
     pos: 
       x: 797
       y: 9

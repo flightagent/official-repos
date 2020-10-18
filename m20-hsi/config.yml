@@ -15,10 +15,10 @@ gauges:
       width: 265
       height: 265
     foreground: hsi_panel.png
-    foreground2: hsi_hdg_err.png
-    #foreground2indicator: 
     foreground3: hsi_nav_err.png
     foreground3notindicator: nav1sgn
+    foreground3animation: rotateupfromleft
+    foreground3notanimation: rotatedownfromleft
     foreground4: hsi_gs.png
     foreground5: hsi_plane.png  
     rotationdisc:
@@ -28,7 +28,7 @@ gauges:
       infiniterotation: true
       minvalue: 0
       maxvalue: 359.9
-      indicator: hdg
+      indicator: hdgmag
   - gauge: 
     name: apbug
     refobject: hsi
