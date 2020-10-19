@@ -36,21 +36,23 @@ gauges:
       image: hsi_hdga.png
       z: 102
       indicator: aphdg
-      relindicator: hdg
+      relindicator: hdgmag
   - gauge: 
     name: hsi_center
     refobject: hsi
     rotationdisc:
       image: hsi_center.png
       z: 22
-      indicator: hsibea
+      indicator: nav1obs #hsibea
+      relindicator: hdgmag
   - gauge: 
     name: hsi_needle
     refobject: hsi
     rotationdisc:
       image: hsi_vor_hdg.png
       z: 23
-      indicator: hsibea
+      indicator: nav1obs #hsibea
+      relindicator: hdgmag
   - gauge: 
     name: hsi_to
     refobject: hsi
@@ -58,7 +60,8 @@ gauges:
       image: hsi_to.png
       visibleindicator: nav1tf 
       z: 23
-      indicator: hsibea
+      indicator: nav1obs #hsibea
+      relindicator: hdgmag
   - gauge: 
     name: hsi_from
     refobject: hsi
@@ -66,14 +69,16 @@ gauges:
       image: hsi_from.png
       visiblenotindicator: nav1tf 
       z: 23
-      indicator: hsibea
+      indicator: nav1obs #hsibea
+      relindicator: hdgmag
   - gauge: 
     name: hsi_center
     refobject: hsi
     rotationdisc:
       image: hsi_vor_displ.png
       z: 24
-      indicator: hsibea
+      indicator: nav1obs #hsibea
+      relindicator: hdgmag
       xmove:
         indicator: hsicdi
         minvalue: -127

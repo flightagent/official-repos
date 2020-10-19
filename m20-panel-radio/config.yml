@@ -173,7 +173,7 @@ panel:
         size: 15px
       text: KT
     - label: 
-      name: nav1spd
+      name: dme1spd
       pos: 
         x: 810
         y: 210
@@ -185,7 +185,7 @@ panel:
         family: radiofont
         align: right
         size: 30px
-      indicator: nav1spd
+      indicator: dme1spd
     - label: 
       name: xpdr
       pos: 
@@ -231,7 +231,7 @@ panel:
       decimals: 1
       indicator: adf1stb
     - label: 
-      name: ap_alt
+      name: apalt
       pos: 
         x: 300
         y: 260
@@ -243,7 +243,7 @@ panel:
         family: radiofont
         size: 30px
         align: right
-      indicator: ap_alt
+      indicator: apalt
     - label: 
       name: ap_alt_lp
       pos: 
@@ -273,7 +273,7 @@ panel:
         weight: 900
       text: FT
     - label: 
-      name: ap_fpm
+      name: apvs
       pos: 
         x: 300
         y: 290
@@ -285,7 +285,7 @@ panel:
         family: radiofont
         size: 30px
         align: right
-      indicator: ap_fpm
+      indicator: apvs
     - label: 
       name: ap_fpm_l
       pos: 
