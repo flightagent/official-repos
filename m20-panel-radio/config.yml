@@ -7,6 +7,45 @@ contact: flightagent.pro@gmail.com
 web: flightagent.com
 panel:
   name: M20-panel-radio
+  fonts:
+    - font:
+      name: radiofontbig
+      family: radiofont
+      align: right
+      size: 30px
+      color: red
+    - font:
+      name: radiofont-big-bold
+      color: red
+      family: radiofont
+      align: right
+      size: 30px
+      weight: 900
+    - font:
+      name: radiofontlabel
+      color: red
+      family: arial
+      size: 15px
+    - font:
+      name: radiofont-label-bold
+      color: red
+      family: arial
+      size: 15px
+      weight: 900
+    - font:
+      name: radiofont-status-green
+      color: green
+      family: arial
+      size: 15px
+      weight: 900
+      align: center
+    - font:
+      name: radiofont-status-gray
+      color: #303030
+      family: arial
+      size: 15px
+      weight: 900
+      align: center
   position:
     x: 0
     y: 0
@@ -20,10 +59,7 @@ panel:
         width: 138
         height: 52
       font:
-        family: radiofont
-        align: right
-        size: 30px
-        color: red
+        name: radiofontbig
       decimals: 2
       indicator: com1use
     - label: 
@@ -35,10 +71,7 @@ panel:
         width: 138
         height: 52
       font:
-        color: red
-        family: radiofont
-        align: right
-        size: 30px
+        name: radiofontbig
       decimals: 2
       indicator: com1stb
     - label: 
@@ -50,10 +83,7 @@ panel:
         width: 137
         height: 52
       font:
-        color: red
-        family: radiofont
-        align: right
-        size: 30px
+        name: radiofontbig
       decimals: 2
       indicator: com2use
     - label: 
@@ -65,10 +95,7 @@ panel:
         width: 137
         height: 52
       font:
-        color: red
-        family: radiofont
-        align: right
-        size: 30px
+        name: radiofontbig
       decimals: 2
       indicator: com2stb
     - label: 
@@ -80,10 +107,7 @@ panel:
         width: 137
         height: 52
       font:
-        color: red
-        family: radiofont
-        size: 30px
-        align: right
+        name: radiofontbig
       decimals: 2
       indicator: nav1use
     - label: 
@@ -95,10 +119,7 @@ panel:
         width: 137
         height: 52
       font:
-        family: radiofont
-        size: 30px
-        color: red
-        align: right
+        name: radiofontbig
       decimals: 2
       indicator: nav1stb
     - label: 
@@ -110,10 +131,7 @@ panel:
         width: 137
         height: 52
       font:
-        family: radiofont
-        align: right
-        size: 30px
-        color: red
+        name: radiofontbig
       decimals: 2
       indicator: nav2use
     - label: 
@@ -125,10 +143,7 @@ panel:
         width: 137
         height: 52
       font:
-        family: radiofont
-        align: right
-        size: 30px
-        color: red
+        name: radiofontbig
       decimals: 2
       indicator: nav2stb
     - label: 
@@ -140,9 +155,7 @@ panel:
         width: 34
         height: 22
       font:
-        color: red
-        family: arial
-        size: 15px
+        name: radiofontlabel
       text: NM
     - label: 
       name: nav1dme
@@ -153,10 +166,7 @@ panel:
         width: 66
         height: 52
       font:
-        family: radiofont
-        align: right
-        size: 30px
-        color: red
+        name: radiofontbig
       indicator: nav1dme
     - label: 
       name: nav1spd_l
@@ -181,10 +191,7 @@ panel:
         width: 67
         height: 52          
       font:
-        color: red
-        family: radiofont
-        align: right
-        size: 30px
+        name: radiofontbig
       indicator: dme1spd
     - label: 
       name: xpdr
@@ -195,10 +202,7 @@ panel:
         width: 67
         height: 52          
       font:
-        color: red
-        family: radiofont
-        align: right
-        size: 30px
+        name: radiofontbig
       indicator: xpdr
     - label: 
       name: adf1use
@@ -209,10 +213,7 @@ panel:
         width: 67
         height: 52          
       font:
-        color: red
-        family: radiofont
-        align: right
-        size: 30px
+        name: radiofontbig
       decimals: 1
       indicator: adf1use
     - label: 
@@ -224,10 +225,7 @@ panel:
         width: 67
         height: 52          
       font:
-        color: red
-        family: radiofont
-        align: right
-        size: 30px
+        name: radiofontbig
       decimals: 1
       indicator: adf1stb
     - label: 
@@ -239,10 +237,7 @@ panel:
         width: 67
         height: 52          
       font:
-        color: red
-        family: radiofont
-        size: 30px
-        align: right
+        name: radiofontbig
       indicator: apalt
     - label: 
       name: ap_alt_lp
@@ -253,10 +248,7 @@ panel:
         width: 67
         height: 52          
       font:
-        color: red
-        family: arial
-        size: 15px
-        weight: 900
+        name: radiofont-label-bold
       text: ALT
     - label: 
       name: ap_alt_l
@@ -267,10 +259,7 @@ panel:
         width: 67
         height: 52          
       font:
-        color: red
-        family: arial
-        size: 15px
-        weight: 900
+        name: radiofont-label-bold
       text: FT
     - label: 
       name: apvs
@@ -281,10 +270,7 @@ panel:
         width: 67
         height: 52          
       font:
-        color: red
-        family: radiofont
-        size: 30px
-        align: right
+        name: radiofontbig
       indicator: apvs
     - label: 
       name: ap_fpm_l
@@ -295,10 +281,7 @@ panel:
         width: 67
         height: 52          
       font:
-        color: red
-        family: arial
-        size: 15px
-        weight: 900
+        name: radiofont-label-bold
       text: FPM
     - label: 
       name: ap_fpm_lp
@@ -309,10 +292,7 @@ panel:
         width: 67
         height: 52          
       font:
-        color: red
-        family: arial
-        size: 15px
-        weight: 900
+        name: radiofont-label-bold
       text: VS
     - label: 
       name: ap_hdgl
@@ -323,10 +303,7 @@ panel:
         width: 67
         height: 52          
       font:
-        color: red
-        family: arial
-        size: 15px
-        weight: 900
+        name: radiofont-label-bold
       text: HDG
     - label: 
       name: ap_hdg
@@ -337,11 +314,7 @@ panel:
         width: 67
         height: 52          
       font:
-        color: red
-        family: radiofont
-        align: right
-        size: 30px
-        weight: 900
+        name: radiofont-big-bold
       indicator: aphdg
     - label: 
       name: gear_down
@@ -352,11 +325,7 @@ panel:
         width: 47
         height: 52          
       font:
-        color: green
-        family: arial
-        size: 15px
-        weight: 900
-        align: center
+        name: radiofont-status-green
       indicator: gear_down
       text: GEAR DN
     - label: 
@@ -368,11 +337,7 @@ panel:
         width: 47
         height: 52          
       font:
-        color: #303030
-        family: arial
-        size: 15px
-        weight: 900
-        align: center
+        name: radiofont-status-gray        
       indicator: gear_unsafe
       text: GEAR UNSAFE
     - label: 
@@ -384,11 +349,7 @@ panel:
         width: 47
         height: 52          
       font:
-        align: center
-        color: #303030
-        family: arial
-        size: 15px
-        weight: 900
+        name: radiofont-status-gray
       indicator: leftfuel
       text: LEFT FUEL
     - label: 
@@ -400,10 +361,6 @@ panel:
         width: 47
         height: 52          
       font:
-        color: #303030
-        family: arial
-        size: 15px
-        weight: 900
-        align: center
+        name: radiofont-status-gray
       indicator: righttfuel
       text: RIGHT FUEL
