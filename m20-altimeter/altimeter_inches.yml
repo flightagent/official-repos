@@ -1,0 +1,60 @@
+name: altimeter_inches
+debug: false
+backgroundcolor: black
+outputpng: altimeter_inches-new.png
+outputsvg: altimeter_inches.svg
+dimensions:
+  w: 400
+  h: 400
+backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-altimeter/altimeter_inches.png
+ranges:
+  - range:
+    name: ticks
+    radius: 170
+    color: white
+    thickness: 7
+    startangle: 90
+    endangle: 430
+    needle: none
+    discrete: true
+    discreteangle: 2
+    discretethickness: 2
+    center:
+      x: 200
+      y: 200
+  - range:
+    name: bigticks
+    radius: 170
+    color: white
+    thickness: 13
+    startangle: 90
+    endangle: 430
+    needle: none
+    discrete: true
+    discreteangle: 10
+    discretethickness: 2
+    center:
+      x: 200
+      y: 200
+  - range:
+    name: text
+    text:
+      initial: 28.1
+      increment: 0.1
+      format: .1
+      font:
+        size: 13
+        family: MS 33558
+        fontorientation: followangle
+        verticaladjust: 6
+    radius: 140
+    color: white
+    startangle: 90
+    endangle: 430 # Can pass 360 beacuse started at 90
+    needle: none
+    discrete: true
+    discreteangle: 10
+    center:
+      x: 200
+      y: 200
+# Notes:

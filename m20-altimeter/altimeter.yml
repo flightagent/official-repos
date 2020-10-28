@@ -1,0 +1,93 @@
+name: altimeter-foreground
+debug: false
+backgroundcolor: black
+glowradius: 180
+outputpng: altimeter-new.png
+outputsvg: altimeter.svg
+dimensions:
+  w: 400
+  h: 400
+backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-altimeter/altimeter.png
+ranges:
+  - range:
+    name: inHgwindow
+    radius: 167
+    color: blue
+    thickness: 45
+    startangle: 79
+    endangle: 101
+    needle: none
+    discrete: false
+    center:
+      x: 200
+      y: 200
+  - range:
+    name: ticks
+    radius: 190  
+    color: white
+    thickness: 18
+    startangle: 0
+    endangle: 360
+    needle: none
+    discrete: true
+    discreteangle: 7.2
+    discretethickness: 2
+    center:
+      x: 200
+      y: 200
+  - range:
+    name: bigticks
+    radius: 190  
+    color: white
+    thickness: 25
+    startangle: 0
+    endangle: 360
+    needle: none
+    discrete: true
+    discreteangle: 36
+    discretethickness: 3
+    center:
+      x: 200
+      y: 200
+  - range:
+    name: text
+    text:
+      initial: 0
+      increment: 1
+      font:
+        size: 28
+        family: MS 33558
+        fontorientation: vertical
+    radius: 140
+    color: white
+    startangle: 0
+    endangle: 350 # Do not get to 360, as it paints 10
+    needle: none
+    discrete: true
+    discreteangle: 36
+    center:
+      x: 200
+      y: 200
+texts:
+  - text:
+    value: ALT
+    color: white
+    position:
+      x: 150
+      y: 160
+    font:
+      size: 36
+      family: MS 33558
+  - text:
+    value: 100 feet
+    color: white
+    position:
+      x: 150
+      y: 182
+    font:
+      size: 10
+      family: MS 33558
+# Notes:
+# open in inkscape
+# Need to move 2,3 outbound to enable inHg window
+# text size eroneous too big
