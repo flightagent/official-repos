@@ -1,0 +1,174 @@
+name: manifold
+#debug: true
+backgroundcolor: black
+glowradius: 190
+outputpng: manifold-new.png
+outputsvg: manifold.svg
+dimensions:
+  w: 400
+  h: 400
+backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-manifold/manpress_background.png
+ranges:
+  - range: #ticks
+    name: ticks
+    radius: 190 
+    color: white
+    thickness: 15
+    startangle: 183
+    endangle: 359
+    discrete: true
+    discreteangle: 6.8
+    discretethickness: 4
+    center:
+      x: 200
+      y: 200
+  - range: #bigticks
+    name: bigticks
+    radius: 190
+    color: white
+    thickness: 25
+    startangle: 183
+    endangle: 359
+    discrete: true
+    discreteangle: 34
+    discretethickness: 6
+    center:
+      x: 200
+      y: 200
+  - range: #text
+    name: text
+    text:
+      initial: 10
+      increment: 5
+      font:
+        size: 24
+        family: MS 33558
+    radius: 140
+    color: white
+    startangle: 183
+    endangle: 359
+    discrete: true
+    discreteangle: 34
+    center:
+      x: 200
+      y: 200
+  - range: #orange
+    name: orange
+    radius: 190
+    color: orange
+    thickness: 32
+    startangle: 337.5
+    endangle: 340.5
+    center:
+      x: 200
+      y: 200
+  - range: #yellow
+    name: yellow
+    radius: 190
+    color: '#ffd42a'
+    thickness: 17
+    startangle: 103
+    endangle: 118
+    center:
+      x: 200
+      y: 200
+  - range: #green
+    name: green
+    radius: 190
+    color: '#3b9d45'
+    thickness: 17
+    startangle: 22
+    endangle: 103
+    center:
+      x: 200
+      y: 200
+  - range: #ticksFP
+    name: ticksFP
+    radius: 190 
+    color: white
+    thickness: 15
+    startangle: 6
+    endangle: 174
+    discrete: true
+    discreteangle: 28
+    discretethickness: 4
+    center:
+      x: 200
+      y: 200
+  - range: #bigticksFP
+    name: bigticksFP
+    radius: 190
+    color: white
+    thickness: 25
+    startangle: 6
+    endangle: 174
+    discrete: true
+    discreteangle: 56
+    discretethickness: 6
+    center:
+      x: 200
+      y: 200
+  - range: #textFP
+    name: textFP
+    text:
+      initial: 60
+      increment: -20
+      font:
+        size: 24
+        family: MS 33558
+    radius: 140
+    color: white
+    startangle: 6
+    endangle: 174
+    discrete: true
+    discreteangle: 56
+    center:
+      x: 200
+      y: 200
+  - range: #red
+    name: red
+    radius: 190
+    color: red
+    thickness: 32
+    startangle: 4
+    endangle: 7
+    center:
+      x: 200
+      y: 200
+texts:
+  - text:
+    value: MAN
+    color: white
+    position:
+      x: 160
+      y: 147
+    font:
+      size: 18
+      family: MS 33558
+  - text:
+    value: PRESS
+    color: white
+    position:
+      x: 160
+      y: 175
+    font:
+      size: 18
+      family: MS 33558
+  - text:
+    value: FUEL
+    color: white
+    position:
+      x: 240
+      y: 147
+    font:
+      size: 18
+      family: MS 33558
+  - text:
+    value: PRESS
+    color: white
+    position:
+      x: 240
+      y: 175
+    font:
+      size: 18
+      family: MS 33558
