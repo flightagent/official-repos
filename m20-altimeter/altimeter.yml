@@ -57,7 +57,7 @@ ranges:
       font:
         size: 28
         family: MS 33558
-        fontorientation: vertical
+        orientation: vertical
     radius: 140
     color: white
     startangle: 0

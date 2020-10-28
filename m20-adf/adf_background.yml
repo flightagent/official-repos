@@ -1,0 +1,10 @@
+name: adf_background
+debug: false
+backgroundcolor: black
+glowradius: 290
+outputpng: adf_background-new.png
+outputsvg: adf_background.svg
+dimensions:
+  w: 400
+  h: 400
+backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-adf/adf.png
