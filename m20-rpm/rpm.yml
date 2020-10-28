@@ -1,0 +1,103 @@
+name: rpm
+debug: false
+backgroundcolor: black
+glowradius: 190
+outputpng: rpm-new.png
+outputsvg: rpm.svg
+dimensions:
+  w: 400
+  h: 400
+backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-rpm/tachometer.png
+ranges:
+  - range:
+    name: yellow
+    radius: 190
+    color: '#ffd42a'
+    thickness: 17
+    startangle: 342
+    endangle: 374
+    center:
+      x: 200
+      y: 200
+  - range:
+    name: green
+    radius: 190
+    color: '#3b9d45'
+    thickness: 17
+    startangle: 374
+    endangle: 428
+    center:
+      x: 200
+      y: 200
+  - range:
+    name: ticks
+    radius: 190 
+    color: white
+    thickness: 22
+    startangle: 234
+    endangle: 486
+    discrete: true
+    discreteangle: 7.2
+    discretethickness: 5
+    center:
+      x: 200
+      y: 200
+  - range:
+    name: bigticks
+    radius: 190
+    color: white
+    thickness: 32
+    startangle: 234
+    endangle: 486
+    discrete: true
+    discreteangle: 36
+    discretethickness: 8
+    center:
+      x: 200
+      y: 200
+  - range:
+    name: text
+    text:
+      initial: 0
+      increment: 5
+      font:
+        size: 30
+        family: MS 33558
+    radius: 130
+    color: white
+    startangle: 234
+    endangle: 486
+    discrete: true
+    discreteangle: 36
+    center:
+      x: 200
+      y: 200
+  - range:
+    name: red
+    radius: 190
+    color: red
+    thickness: 32
+    startangle: 427
+    endangle: 430
+    center:
+      x: 200
+      y: 200
+texts:
+  - text:
+    value: RPM
+    color: white
+    position:
+      x: 200
+      y: 130
+    font:
+      size: 32
+      family: MS 33558
+  - text:
+    value: x100
+    color: white
+    position:
+      x: 200
+      y: 160
+    font:
+      size: 18
+      family: MS 33558
