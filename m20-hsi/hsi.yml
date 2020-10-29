@@ -1,0 +1,55 @@
+name: hsi
+#debug: true
+backgroundcolor: black
+glowradius: 290
+outputpng: hsi-new.png
+outputsvg: hsi.svg
+dimensions:
+  w: 400
+  h: 400
+backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-hsi/hsi_hdg.png
+ranges:
+  - range:
+    name: ticks
+    radius: 168
+    color: white
+    thickness: 10
+    startangle: 0
+    endangle: 360
+    discrete: true
+    discreteangle: 5
+    discretethickness: 2
+    center:
+      x: 200
+      y: 200
+  - range:
+    name: bigticks
+    radius: 168
+    color: white
+    thickness: 20
+    startangle: 0
+    endangle: 360
+    discrete: true
+    discreteangle: 10
+    discretethickness: 2
+    center:
+      x: 200
+      y: 200
+  - range:
+    name: text
+    text:
+      initial: 0
+      increment: 3
+      font:
+        size: 20
+        family: MS 33558
+        orientation: followrange
+    radius: 130
+    color: white
+    startangle: 0
+    endangle: 350 # Do not get to 360, as it paints 10
+    discrete: true
+    discreteangle: 30
+    center:
+      x: 200
+      y: 200
