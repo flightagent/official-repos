@@ -1,0 +1,77 @@
+name: vsi
+#debug: true
+backgroundcolor: black
+glowradius: 120
+outputpng: vsi-new.png
+outputsvg: vsi.svg
+dimensions:
+  w: 400
+  h: 400
+backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-vsi/vsi.png
+ranges:
+  - range: #ticks
+    name: ticks
+    radius: 190 
+    color: white
+    thickness: 24
+    startangle: 97
+    endangle: 443
+    discrete: true
+    discreteangle: 8.65
+    discretethickness: 2
+    center:
+      x: 200
+      y: 200
+  - range: #bigticks
+    name: bigticks
+    radius: 190
+    color: white
+    startangle: 97
+    endangle: 443
+    thickness: 30
+    discrete: true
+    discreteangle: 43.25
+    discretethickness: 4
+    center:
+      x: 200
+      y: 200
+  - range: #text
+    name: text
+    text:
+      initial: 20
+      increment: -5
+      font:
+        size: 24
+        family: MS 33558
+        orientation: vertical
+    radius: 135
+    color: white
+    startangle: 97
+    endangle: 443
+    discrete: true
+    discreteangle: 43.25
+    center:
+      x: 200
+      y: 200
+texts:
+  - text:
+    value: VERTICAL       SPEED
+    color: white
+    position:
+      x: 200
+      y: 147
+    font:
+      size: 17
+      family: MS 33558
+  - text:
+    value: 100 FEET PER MINUTE
+    color: white
+    position:
+      x: 200
+      y: 172
+    font:
+      size: 11
+      family: MS 33558
+# notes:
+# manually duplicate upper part to down part
+# add texts, arrows, and bigtickets, making the small big
