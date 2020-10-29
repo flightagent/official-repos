@@ -1,0 +1,180 @@
+name: airspeed
+#debug: true
+backgroundcolor: black
+glowradius: 190
+outputpng: airspeed-new.png
+outputsvg: airspeed.svg
+dimensions:
+  w: 400
+  h: 400
+backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-airspeed/airspeed.png
+ranges:
+  - range: #yellow
+    name: yellow
+    radius: 190
+    color: '#ffd42a'
+    thickness: 21
+    startangle: 287
+    endangle: 316
+    center:
+      x: 200
+      y: 200
+  - range: #flaps
+    name: flaps
+    radius: 169
+    color: white
+    thickness: 14
+    startangle: 56
+    endangle: 179
+    center:
+      x: 200
+      y: 200    
+
+  - range: #green
+    name: yellow
+    radius: 190
+    color: '#3b9d45'
+    thickness: 21
+    startangle: 68
+    endangle: 180
+    center:
+      x: 200
+      y: 200    
+  - range: #green1
+    name: yellow
+    radius: 190
+    color: '#3b9d45'
+    thickness: 21
+    startangle: 180
+    endangle: 287
+    center:
+      x: 200
+      y: 200    
+  - range: #ticks
+    name: ticks
+    radius: 190 
+    color: white
+    thickness: 22
+    startangle: 30
+    endangle: 335.6
+    startvalue: 40
+    endvalue: 210
+    discrete: true
+    discretevalue: 5
+    discretethickness: 2
+    polynomial:
+        active: true
+        a0: -85.94350
+        a1: 2.82850
+        a2: -0.00392
+    center:
+      x: 200
+      y: 200
+  - range: #bigticks
+    name: bigticks
+    radius: 190 
+    color: white
+    thickness: 36
+    startangle: 30
+    endangle: 335.6
+    startvalue: 40
+    endvalue: 210
+    discrete: true
+    discretevalue: 10
+    discretethickness: 4
+    polynomial:
+        active: true
+        a0: -85.94350
+        a1: 2.82850
+        a2: -0.00392
+    center:
+      x: 200
+      y: 200
+  - range: #text
+    name: text
+    radius: 127 
+    color: white
+    startangle: 30
+    endangle: 335.6
+    startvalue: 40
+    endvalue: 210
+    discrete: true
+    discretevalue: 20
+    text:
+      initial: 40
+      increment: 20
+      font:
+        size: 20
+        family: MS 33558
+        orientation: vertical
+    polynomial:
+        active: true
+        a0: -85.94350
+        a1: 2.82850
+        a2: -0.00392
+    center:
+      x: 200
+      y: 200
+  - range: #red
+    name: red
+    radius: 190
+    color: red
+    thickness: 36
+    startangle: 316
+    endangle: 318
+    center:
+      x: 200
+      y: 200    
+  - range: #windowtemp
+    name: windowtemp
+    radius: 154
+    color: blue
+    thickness: 36
+    startangle: -14
+    endangle: 14
+    center:
+      x: 200
+      y: 200
+  - range: #windowsgr
+    name: windowsgr
+    disabled: false
+    radius: 152
+    color: '#3b9d45'
+    thickness: 23
+    startangle: 189
+    endangle: 277
+    center:
+      x: 200
+      y: 200    
+  - range: #windowspd
+    name: windowspd
+    disabled: false
+    radius: 199
+    color: blue
+    thickness: 47
+    startangle: 189
+    endangle: 277
+    center:
+      x: 200
+      y: 200    
+
+texts:
+  - text:
+    value: AIRSPEED
+    color: white
+    position:
+      x: 200
+      y: 170
+    font:
+      size: 17
+      family: MS 33558
+  - text:
+    value: KNOTS
+    color: white
+    position:
+      x: 200
+      y: 230
+    font:
+      size: 17
+      family: MS 33558
+# notes:

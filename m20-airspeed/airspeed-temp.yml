@@ -1,0 +1,132 @@
+name: airspeed
+#debug: true
+backgroundcolor: white
+outputpng: airspeed-temp-new.png
+outputsvg: airspeed-temp.svg
+dimensions:
+  w: 400
+  h: 400
+backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-airspeed/airspeed_back.png
+ranges:
+  - range: #ticks
+    name: ticks
+    radius: 158
+    color: black
+    thickness: 10
+    startangle: 30
+    endangle: 335.6
+    startvalue: 40
+    endvalue: 210
+    discrete: true
+    discretevalue: 5
+    discretethickness: 2
+    polynomial:
+        active: true
+        a0: -85.94350
+        a1: 2.82850
+        a2: -0.00392
+    center:
+      x: 200
+      y: 200
+  - range: #bigticks
+    name: bigticks
+    radius: 158
+    color: black
+    thickness: 10
+    startangle: 30
+    endangle: 335.6
+    startvalue: 40
+    endvalue: 210
+    discrete: true
+    discretevalue: 10
+    discretethickness: 4
+    polynomial:
+        active: true
+        a0: -85.94350
+        a1: 2.82850
+        a2: -0.00392
+    center:
+      x: 200
+      y: 200
+  - range: #text
+    name: text
+    radius: 175
+    color: black
+    startangle: 30
+    endangle: 335.6
+    startvalue: 40
+    endvalue: 210
+    discrete: true
+    discretevalue: 20
+    text:
+      initial: 40
+      increment: 20
+      font:
+        size: 18
+        family: MS 33558
+        orientation: followrangeinv
+    polynomial:
+        active: true
+        a0: -85.94350
+        a1: 2.82850
+        a2: -0.00392
+    center:
+      x: 200
+      y: 200
+  - range: #temp1
+    name: temp1
+    radius: 148
+    color: black
+    thickness: 28
+    startangle: -53
+    endangle: 51
+    discrete: true
+    discreteangle: 4
+    discretethickness: 1
+    center:
+      x: 200
+      y: 200
+  - range: #temp2
+    name: temp2
+    radius: 148
+    color: black
+    thickness: 4
+    startangle: -51
+    endangle: 51
+    discrete: true
+    discreteangle: 4
+    discretethickness: 1
+    center:
+      x: 200
+      y: 200
+  - range: #temp3
+    name: temp3
+    radius: 129
+    color: black
+    thickness: 9
+    startangle: -51
+    endangle: 51
+    discrete: true
+    discreteangle: 4
+    discretethickness: 1
+    center:
+      x: 200
+      y: 200
+  - range: #temptxt
+    name: temptxt
+    radius: 134 
+    color: black
+    startangle: -51
+    endangle: 51
+    discrete: true
+    discreteangle: 4
+    text:
+      initial: -26
+      increment: 2
+      font:
+        size: 5
+        family: MS 33558
+        orientation: followrange
+    center:
+      x: 200
+      y: 200

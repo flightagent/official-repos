@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   version="1.1"
+   id="svg3517"
+   sodipodi:docname="airspeed.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:export-filename="/home/marcel/projects/src/github.com/flightagent/fainstruments/m20-airspeed/airspeed.png"
+   inkscape:export-xdpi="194.58392"
+   inkscape:export-ydpi="194.58392">
+  <metadata
+     id="metadata3523">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3521" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1536"
+     inkscape:window-height="800"
+     id="namedview3519"
+     showgrid="false"
+     inkscape:zoom="1.465772"
+     inkscape:cx="155.95296"
+     inkscape:cy="243.61043"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3517" />
+  <radialGradient
+     id="bgGlow"
+     cx="200"
+     cy="40.000001"
+     r="400"
+     fx="200"
+     fy="200"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-color="#252520"
+       stop-opacity="100.00"
+       id="stop3412" />
+    <stop
+       offset="60%"
+       stop-color="black"
+       stop-opacity="1000.00"
+       id="stop3414" />
+  </radialGradient>
+  <path
+     id="bg"
+     style="fill:url(#bgGlow)"
+     d="M 0 0 L 0 400 L 400 400 L 400 0 L 0 0 z M 200.20117 46.490234 A 154 154 0 0 1 237 51 L 229 86 A 118 118 0 0 0 171 86 L 163 51 A 154 154 0 0 1 200.20117 46.490234 z M 2 176 L 49 181 A 152 152 0 0 0 176 350 L 169 397 A 199 199 0 0 1 2 176 z " />
+  <g
+     id="yellow">
+    <path
+       d="M 18 144 A 190 190 0 0 1 68 63 L 83 78 A 169 169 0 0 0 38 151 L 18 144 Z "
+       style="fill:#ffd42a"
+       id="path3418" />
+  </g>
+  <g
+     id="flaps">
+    <path
+       d="M 340 105 A 169 169 0 0 1 203 369 L 203 355 A 155 155 0 0 0 329 113 L 340 105 Z "
+       style="fill:white"
+       id="path3421" />
+  </g>
+  <g
+     id="g3426">
+    <path
+       d="M 376,129 A 190,190 0 0 1 200,390 V 369 A 169,169 0 0 0 357,137 Z"
+       style="fill:#3b9d45"
+       id="path3424" />
+  </g>
+  <g
+     id="g3430">
+    <path
+       id="path3428"
+       style="fill:#3b9d45"
+       d="m 18,144 a 190,190 0 0 0 -6.957031,32.31445 l 21.064453,2.24024 A 169,169 0 0 1 38,151 Z m 155.92773,223.01758 -3.09765,20.79687 A 190,190 0 0 0 200,390 v -21 a 169,169 0 0 1 -26.07227,-1.98242 z" />
+  </g>
+  <g
+     id="ticks">
+    <g
+       id="windowsgr">
+      <path
+         d="M 176,350 A 152,152 0 0 1 49,181 l 23,3 a 129,129 0 0 0 108,143 z"
+         style="fill:#3b9d45"
+         id="path3509" />
+    </g>
+    <g
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:2"
+       id="g3467">
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks20"
+         transform="rotate(-69.08,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks33"
+         transform="rotate(-56.6,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks45"
+         transform="rotate(-44.32,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks57"
+         transform="rotate(-32.23,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks69"
+         transform="rotate(-20.35,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks81"
+         transform="rotate(-8.65,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks92"
+         transform="rotate(2.84,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks104"
+         transform="rotate(14.14,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks115"
+         transform="rotate(25.25,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks126"
+         transform="rotate(36.16,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks136"
+         transform="rotate(46.87,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks147"
+         transform="rotate(57.39,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks157"
+         transform="rotate(67.71,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks167"
+         transform="rotate(77.83,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks177"
+         transform="rotate(87.76,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks187"
+         transform="rotate(97.49,200,200)" />
+      <line
+         x1="133.60843"
+         y1="336.22943"
+         x2="143.3801"
+         y2="316.51868"
+         id="ticks206" />
+      <line
+         x1="94.921883"
+         y1="307.61053"
+         x2="110.33092"
+         y2="291.90826"
+         id="ticks224" />
+      <line
+         x1="66.59938"
+         y1="271.87231"
+         x2="85.982605"
+         y2="261.46603"
+         id="ticks241" />
+      <line
+         x1="51.947666"
+         y1="228.52959"
+         x2="73.49057"
+         y2="224.06827"
+         id="ticks258" />
+      <line
+         x1="48.47213"
+         y1="188.61395"
+         x2="70.417465"
+         y2="190.16391"
+         id="ticks274" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks281"
+         transform="rotate(-168.39,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks288"
+         transform="rotate(-161.01,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks296"
+         transform="rotate(-153.82,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks303"
+         transform="rotate(-146.83,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks309"
+         transform="rotate(-140.04,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks316"
+         transform="rotate(-133.44,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks322"
+         transform="rotate(-127.04,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks329"
+         transform="rotate(-120.84,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="368"
+         y2="200"
+         id="ticks335"
+         transform="rotate(-114.83,200,200)" />
+    </g>
+  </g>
+  <g
+     id="bigticks">
+    <g
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:4"
+       id="g3488">
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks20"
+         transform="rotate(-69.08,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks45"
+         transform="rotate(-44.32,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks69"
+         transform="rotate(-20.35,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks92"
+         transform="rotate(2.84,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks115"
+         transform="rotate(25.25,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks136"
+         transform="rotate(46.87,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks157"
+         transform="rotate(67.71,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks177"
+         transform="rotate(87.76,200,200)" />
+      <line
+         x1="152.35425"
+         y1="357.66879"
+         x2="162.89766"
+         y2="323.24734"
+         id="bigticks197" />
+      <line
+         x1="105.63944"
+         y1="332.66269"
+         x2="126.54987"
+         y2="303.35818"
+         id="bigticks215" />
+      <line
+         x1="69.841179"
+         y1="297.78793"
+         x2="98.671272"
+         y2="276.22812"
+         id="bigticks233" />
+      <line
+         x1="47.311417"
+         y1="254.57855"
+         x2="81.168198"
+         y2="242.34262"
+         id="bigticks250" />
+      <line
+         x1="36.40464"
+         y1="210.39351"
+         x2="72.327972"
+         y2="208.04526"
+         id="bigticks266" />
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks281"
+         transform="rotate(-168.39,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks296"
+         transform="rotate(-153.82,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks309"
+         transform="rotate(-140.04,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks322"
+         transform="rotate(-127.04,200,200)" />
+      <line
+         x1="390"
+         y1="200"
+         x2="354"
+         y2="200"
+         id="bigticks335"
+         transform="rotate(-114.83,200,200)" />
+    </g>
+  </g>
+  <g
+     id="text"
+     transform="translate(2,14)">
+    <g
+       style="fill:#ffffff;stroke:#ffffff"
+       id="g3500">
+      <text
+         x="249"
+         y="81"
+         id="t40"
+         font-family="'MS 33558'"
+         font-size="20px"
+         text-anchor="middle"
+         alignment-baseline="middle">40</text>
+      <text
+         x="319"
+         y="155"
+         id="t60"
+         font-family="'MS 33558'"
+         font-size="20px"
+         text-anchor="middle"
+         alignment-baseline="middle">60</text>
+      <text
+         x="314"
+         y="254"
+         id="t80"
+         font-family="'MS 33558'"
+         font-size="20px"
+         text-anchor="middle"
+         alignment-baseline="middle">80</text>
+      <text
+         x="248"
+         y="317"
+         id="t100"
+         font-family="'MS 33558'"
+         font-size="20px"
+         text-anchor="middle"
+         alignment-baseline="middle">100</text>
+      <text
+         x="168"
+         y="301"
+         id="t120"
+         font-family="'MS 33558'"
+         font-size="20px"
+         text-anchor="middle"
+         alignment-baseline="middle">120</text>
+      <text
+         x="118"
+         y="264"
+         id="t140"
+         font-family="'MS 33558'"
+         font-size="20px"
+         text-anchor="middle"
+         alignment-baseline="middle">140</text>
+      <text
+         x="95"
+         y="204"
+         id="t160"
+         font-family="'MS 33558'"
+         font-size="20px"
+         text-anchor="middle"
+         alignment-baseline="middle">160</text>
+      <text
+         x="86"
+         y="143"
+         id="t180"
+         font-family="'MS 33558'"
+         font-size="20px"
+         text-anchor="middle"
+         alignment-baseline="middle">180</text>
+      <text
+         x="123"
+         y="98"
+         id="t200"
+         font-family="'MS 33558'"
+         font-size="20px"
+         text-anchor="middle"
+         alignment-baseline="middle">200</text>
+    </g>
+  </g>
+  <g
+     id="red">
+    <path
+       d="M 68 63 A 190 190 0 0 1 73 59 L 97 86 A 154 154 0 0 0 93 89 L 68 63 Z "
+       style="fill:red"
+       id="path3503" />
+  </g>
+  <g
+     id="windowtemp" />
+  <g
+     id="windowspd"
+     style="fill:#412dff;fill-opacity:0.601058"
+     transform="translate(168)" />
+  <text
+     x="200"
+     y="170"
+     id="tAIRSPEED"
+     style="stroke:white;fill:white"
+     font-family="MS 33558"
+     font-size="17"
+     text-anchor="middle"
+     alignment-baseline="middle">AIRSPEED</text>
+  <text
+     x="200"
+     y="230"
+     id="tKNOTS"
+     style="stroke:white;fill:white"
+     font-family="MS 33558"
+     font-size="17"
+     text-anchor="middle"
+     alignment-baseline="middle">KNOTS</text>
+  <g
+     id="windowspd-7"
+     style="fill:#412dff;fill-opacity:0.601058"
+     transform="translate(168.54998,-0.588882)" />
+</svg>

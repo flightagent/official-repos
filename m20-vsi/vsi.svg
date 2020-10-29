@@ -98,6 +98,34 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path1999-5" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2001-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1999-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2001-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1999-3" />
+    </marker>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -114,9 +142,9 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1.2384245"
-     inkscape:cx="160.47433"
-     inkscape:cy="235.16503"
+     inkscape:zoom="1.1230814"
+     inkscape:cx="61.591391"
+     inkscape:cy="137.70719"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -126,7 +154,7 @@
        orientation="0,-1"
        id="guide1443" />
     <sodipodi:guide
-       position="81.489864,199.62965"
+       position="102.07877,301.71957"
        orientation="1,0"
        id="guide2218" />
   </sodipodi:namedview>
@@ -154,7 +182,9 @@
      width="400"
      height="400"
      id="bg"
-     fill="url(#bgGlow)" />
+     fill="url(#bgGlow)"
+     inkscape:export-xdpi="191"
+     inkscape:export-ydpi="191" />
   <g
      id="ticks">
     <g
@@ -532,7 +562,10 @@
          font-family="'MS 33558'"
          font-size="24px"
          text-anchor="middle"
-         alignment-baseline="middle">20</text>
+         alignment-baseline="middle"
+         style="font-size:24px;font-family:'MS 33558';text-anchor:middle;"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan2232">20</tspan></text>
       <text
          x="286"
          y="303"
@@ -551,7 +584,10 @@
          font-family="'MS 33558'"
          font-size="24px"
          text-anchor="middle"
-         alignment-baseline="middle">10</text>
+         alignment-baseline="middle"
+         style="font-size:24px;font-family:'MS 33558';text-anchor:middle;"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan2238">10</tspan></text>
       <text
          x="101"
          y="292"
@@ -570,7 +606,10 @@
          font-family="'MS 33558'"
          font-size="24px"
          text-anchor="middle"
-         alignment-baseline="middle">0</text>
+         alignment-baseline="middle"
+         style="font-size:24px;font-family:'MS 33558';text-anchor:middle;"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan2236">0</tspan></text>
       <text
          x="101"
          y="107"
@@ -589,7 +628,10 @@
          font-family="'MS 33558'"
          font-size="24px"
          text-anchor="middle"
-         alignment-baseline="middle">10</text>
+         alignment-baseline="middle"
+         style="font-size:24px;font-family:'MS 33558';text-anchor:middle;"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan2234">10</tspan></text>
       <text
          x="286"
          y="96"
@@ -603,7 +645,7 @@
            id="tspan1617">15</tspan></text>
       <path
          style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2.89134;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2001)"
-         d="m 63.278604,166.31381 c 0,0 4.958927,-19.56286 9.336575,-27.86585 4.377648,-8.30299 16.497427,-21.5872 16.497427,-21.5872"
+         d="m 63.278604,166.31381 c 0,0 2.962015,-19.28093 6.307155,-28.16215 3.345139,-8.88122 13.009067,-24.5635 13.009067,-24.5635"
          id="path1997"
          sodipodi:nodetypes="czc" />
     </g>
@@ -635,11 +677,6 @@
      font-size="17"
      text-anchor="middle"
      alignment-baseline="middle">UP</text>
-  <path
-     style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2.89134;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2001-0)"
-     d="m 63.312684,217.57384 c 0,0 4.958927,19.56286 9.336575,27.86585 4.377648,8.30299 16.497427,21.5872 16.497427,21.5872"
-     id="path1997-6"
-     sodipodi:nodetypes="czc" />
   <text
      x="92.412582"
      y="242.07611"
@@ -649,4 +686,9 @@
      font-size="17"
      text-anchor="middle"
      alignment-baseline="middle">DN</text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2.89134;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2001-1)"
+     d="m 62.846958,221.27528 c 0,0 2.962015,19.28093 6.307155,28.16215 3.345139,8.88122 13.009067,24.5635 13.009067,24.5635"
+     id="path1997-2"
+     sodipodi:nodetypes="czc" />
 </svg>
