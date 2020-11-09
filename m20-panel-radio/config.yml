@@ -15,6 +15,12 @@ panel:
       size: 30px
       color: red
     - font:
+      name: radiofontbig_bg
+      family: radiofont
+      align: right
+      size: 30px
+      color: #481919
+    - font:
       name: radiofont-big-bold
       color: red
       family: radiofont
@@ -62,6 +68,18 @@ panel:
         name: radiofontbig
       decimals: 2
       indicator: com1use
+    - label: 
+      name: com1use_bg
+      pos: 
+        x: 1
+        y: 7
+      dimensions:
+        width: 138
+        height: 52
+      font:
+        name: radiofontbig_bg
+      decimals: 2
+      text: 888.88
     - label: 
       name: com1stb
       pos: 
