@@ -57,6 +57,18 @@ panel:
     y: 0
   labels:
     - label: 
+      name: com1use_bg
+      pos: 
+        x: 1
+        y: 7
+      dimensions:
+        width: 138
+        height: 52
+      font:
+        name: radiofontbig_bg
+      decimals: 2
+      text: 888.88
+    - label: 
       name: com1use
       pos: 
         x: 1
@@ -69,9 +81,9 @@ panel:
       decimals: 2
       indicator: com1use
     - label: 
-      name: com1use_bg
+      name: com1stb_bg
       pos: 
-        x: 1
+        x: 167
         y: 7
       dimensions:
         width: 138
@@ -92,6 +104,18 @@ panel:
         name: radiofontbig
       decimals: 2
       indicator: com1stb
+    - label: 
+      name: com2use_bg
+      pos: 
+        x: 1
+        y: 7
+      dimensions:
+        width: 138
+        height: 52
+      font:
+        name: radiofontbig_bg
+      decimals: 2
+      text: 888.88
     - label: 
       name: com2use
       pos: 
