@@ -20,7 +20,7 @@ gauges:
       image: needle_small.png
       z: 20
       max: 80 # degress from starting position 0, starts position always 0 if nothing else indicated
-      maxvalue: 23 # max value in gallons, to make calcualtions, is it possible to get from plane, but inefficient
+      maxvalue: 100 
       pos:
         x: 70
         y: 92
