@@ -30,15 +30,15 @@ gauges:
       indicator: spd
       units: kn
   - gauge: 
-    name: airspeed_temp
+    name: airspeed_cal
     refobject: m20-airspeed
     rotationdisc:
       image: airspeed_back.png
       ccw: true
       z: 10
-      min: -50
-      minvalue: -30
-      max: 50
-      maxvalue: 30
+      min: 1
+      minvalue: -1
+      max: 60
+      maxvalue: 36
       indicator: spdcal
-      units: kn
+      units: d

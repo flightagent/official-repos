@@ -20,7 +20,7 @@ gauges:
       image: needle_small.png
       z: 20
       max: 80 
-      maxvalue: 1200
+      maxvalue: 2800
       pos:
         x: 70
         y: 92
