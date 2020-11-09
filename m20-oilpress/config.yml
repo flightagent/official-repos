@@ -20,7 +20,7 @@ gauges:
       image: needle_small.png
       z: 20
       min: 5
-      minvalue: 0
+      minvalue: 0.01
       max: 75 
       maxvalue: 100 
       pos:
