@@ -19,7 +19,7 @@ panel:
       family: radiofont
       align: right
       size: 30px
-      color: #481919
+      color: "#481919"
     - font:
       name: radiofont-big-bold
       color: red
@@ -108,7 +108,7 @@ panel:
       name: com2use_bg
       pos: 
         x: 1
-        y: 7
+        y: 150
       dimensions:
         width: 138
         height: 52
@@ -129,6 +129,18 @@ panel:
       decimals: 2
       indicator: com2use
     - label: 
+      name: com2stb_bg
+      pos: 
+        x: 167
+        y: 150
+      dimensions:
+        width: 137
+        height: 52
+      font:
+        name: radiofontbig_bg
+      decimals: 2
+      text: 888.88
+    - label: 
       name: com2stb
       pos: 
         x: 167
@@ -140,6 +152,18 @@ panel:
         name: radiofontbig
       decimals: 2
       indicator: com2stb
+    - label: 
+      name: nav1use_bg
+      pos: 
+        x: 350
+        y: 7
+      dimensions:
+        width: 137
+        height: 52
+      font:
+        name: radiofontbig_bg
+      decimals: 2
+      text: 888.88
     - label: 
       name: nav1use
       pos: 
@@ -153,6 +177,18 @@ panel:
       decimals: 2
       indicator: nav1use
     - label: 
+      name: nav1stb_bg
+      pos: 
+        x: 517
+        y: 7
+      dimensions:
+        width: 137
+        height: 52
+      font:
+        name: radiofontbig_bg
+      decimals: 2
+      text: 888.88
+    - label: 
       name: nav1stb
       pos: 
         x: 517
@@ -165,6 +201,18 @@ panel:
       decimals: 2
       indicator: nav1stb
     - label: 
+      name: nav2use_bg
+      pos: 
+        x: 350
+        y: 150
+      dimensions:
+        width: 137
+        height: 52
+      font:
+        name: radiofontbig_bg
+      decimals: 2
+      text: 888.88
+    - label: 
       name: nav2use
       pos: 
         x: 350
@@ -176,6 +224,18 @@ panel:
         name: radiofontbig
       decimals: 2
       indicator: nav2use
+    - label: 
+      name: nav2stb_bg
+      pos: 
+        x: 517
+        y: 150
+      dimensions:
+        width: 137
+        height: 52
+      font:
+        name: radiofontbig_bg
+      decimals: 2
+      text: 888.88
     - label: 
       name: nav2stb
       pos: 
@@ -199,6 +259,17 @@ panel:
       font:
         name: radiofontlabel
       text: NM
+    - label: 
+      name: nav1dme_bg
+      pos: 
+        x: 730
+        y: 210
+      dimensions:
+        width: 66
+        height: 52
+      font:
+        name: radiofontbig_bg
+      text: 88.8
     - label: 
       name: nav1dme
       pos: 
@@ -225,6 +296,17 @@ panel:
         size: 15px
       text: KT
     - label: 
+      name: dme1spd_bg
+      pos: 
+        x: 810
+        y: 210
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        name: radiofontbig_bg
+      text: 888
+    - label: 
       name: dme1spd
       pos: 
         x: 810
@@ -236,6 +318,17 @@ panel:
         name: radiofontbig
       indicator: dme1spd
     - label: 
+      name: xpdr_bg
+      pos: 
+        x: 860
+        y: 120
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        name: radiofontbig_bg
+      text: 8888
+    - label: 
       name: xpdr
       pos: 
         x: 860
@@ -246,6 +339,18 @@ panel:
       font:
         name: radiofontbig
       indicator: xpdr
+    - label: 
+      name: adf1use_bg
+      pos: 
+        x: 680
+        y: 1
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        name: radiofontbig_bg
+      decimals: 1
+      text: 888.8
     - label: 
       name: adf1use
       pos: 
@@ -259,6 +364,18 @@ panel:
       decimals: 1
       indicator: adf1use
     - label: 
+      name: adf1stb_bg
+      pos: 
+        x: 860
+        y: 1
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        name: radiofontbig_bg
+      decimals: 1
+      text: 888.8
+    - label: 
       name: adf1stb
       pos: 
         x: 860
@@ -270,6 +387,17 @@ panel:
         name: radiofontbig
       decimals: 1
       indicator: adf1stb
+    - label: 
+      name: apalt_bg
+      pos: 
+        x: 300
+        y: 260
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        name: radiofontbig_bg
+      text: 8888
     - label: 
       name: apalt
       pos: 
@@ -303,6 +431,17 @@ panel:
       font:
         name: radiofont-label-bold
       text: FT
+    - label: 
+      name: apvs_bg
+      pos: 
+        x: 300
+        y: 290
+      dimensions:
+        width: 67
+        height: 52          
+      font:
+        name: radiofontbig_bg
+      text: 8888
     - label: 
       name: apvs
       pos: 
