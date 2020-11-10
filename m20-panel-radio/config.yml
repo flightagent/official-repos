@@ -80,6 +80,7 @@ panel:
         name: radiofontbig
       decimals: 2
       indicator: com1use
+      visibleindicator: avon
     - label: 
       name: com1stb_bg
       pos: 
@@ -104,6 +105,7 @@ panel:
         name: radiofontbig
       decimals: 2
       indicator: com1stb
+      visibleindicator: avon
     - label: 
       name: com2use_bg
       pos: 
@@ -128,6 +130,7 @@ panel:
         name: radiofontbig
       decimals: 2
       indicator: com2use
+      visibleindicator: avon
     - label: 
       name: com2stb_bg
       pos: 
@@ -152,6 +155,7 @@ panel:
         name: radiofontbig
       decimals: 2
       indicator: com2stb
+      visibleindicator: avon
     - label: 
       name: nav1use_bg
       pos: 
@@ -176,6 +180,7 @@ panel:
         name: radiofontbig
       decimals: 2
       indicator: nav1use
+      visibleindicator: avon
     - label: 
       name: nav1stb_bg
       pos: 
@@ -200,6 +205,7 @@ panel:
         name: radiofontbig
       decimals: 2
       indicator: nav1stb
+      visibleindicator: avon
     - label: 
       name: nav2use_bg
       pos: 
@@ -224,6 +230,7 @@ panel:
         name: radiofontbig
       decimals: 2
       indicator: nav2use
+      visibleindicator: avon
     - label: 
       name: nav2stb_bg
       pos: 
@@ -248,6 +255,7 @@ panel:
         name: radiofontbig
       decimals: 2
       indicator: nav2stb
+      visibleindicator: avon
     - label: 
       name: dme_nm
       pos: 
@@ -259,6 +267,7 @@ panel:
       font:
         name: radiofontlabel
       text: NM
+      visibleindicator: avon
     - label: 
       name: nav1dme_bg
       pos: 
@@ -281,6 +290,7 @@ panel:
       font:
         name: radiofontbig
       indicator: nav1dme
+      visibleindicator: avon
     - label: 
       name: nav1spd_l
       pos: 
@@ -295,6 +305,7 @@ panel:
         align: right
         size: 15px
       text: KT
+      visibleindicator: avon
     - label: 
       name: dme1spd_bg
       pos: 
@@ -317,6 +328,7 @@ panel:
       font:
         name: radiofontbig
       indicator: dme1spd
+      visibleindicator: avon
     - label: 
       name: xpdr_bg
       pos: 
@@ -339,6 +351,7 @@ panel:
       font:
         name: radiofontbig
       indicator: xpdr
+      visibleindicator: avon
     - label: 
       name: adf1use_bg
       pos: 
@@ -363,6 +376,7 @@ panel:
         name: radiofontbig
       decimals: 1
       indicator: adf1use
+      visibleindicator: avon
     - label: 
       name: adf1stb_bg
       pos: 
@@ -387,6 +401,7 @@ panel:
         name: radiofontbig
       decimals: 1
       indicator: adf1stb
+      visibleindicator: avon
     - label: 
       name: apalt_bg
       pos: 
@@ -409,6 +424,7 @@ panel:
       font:
         name: radiofontbig
       indicator: apalt
+      visibleindicator: avapon
     - label: 
       name: ap_alt_lp
       pos: 
@@ -420,6 +436,7 @@ panel:
       font:
         name: radiofont-label-bold
       text: ALT
+      visibleindicator: avapon
     - label: 
       name: ap_alt_l
       pos: 
@@ -431,6 +448,7 @@ panel:
       font:
         name: radiofont-label-bold
       text: FT
+      visibleindicator: avapon
     - label: 
       name: apvs_bg
       pos: 
@@ -453,6 +471,7 @@ panel:
       font:
         name: radiofontbig
       indicator: apvs
+      visibleindicator: avapon
     - label: 
       name: ap_fpm_l
       pos: 
@@ -464,6 +483,7 @@ panel:
       font:
         name: radiofont-label-bold
       text: FPM
+      visibleindicator: avapon
     - label: 
       name: ap_fpm_lp
       pos: 
@@ -475,6 +495,7 @@ panel:
       font:
         name: radiofont-label-bold
       text: VS
+      visibleindicator: avapon
     - label: 
       name: ap_hdgl
       pos: 
@@ -486,17 +507,7 @@ panel:
       font:
         name: radiofont-label-bold
       text: HDG
-    - label: 
-      name: ap_hdg
-      pos: 
-        x: 120
-        y: 260
-      dimensions:
-        width: 67
-        height: 52          
-      font:
-        name: radiofont-big-bold
-      indicator: aphdg
+      visibleindicator: avapon
     - label: 
       name: gear_down
       pos: 
