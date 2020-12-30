@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:export-filename="C:\Users\ovo\src\github.com\flightagent\fainstruments\m20-vsi\needle.png"
+   inkscape:export-xdpi="31.92"
+   inkscape:export-ydpi="31.92"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="needle.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="475.65845"
+     inkscape:cy="545.41309"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="48.910322,194.90305"
+       orientation="0,-1"
+       id="guide1920" />
+    <sodipodi:guide
+       position="17.105249,194.90305"
+       orientation="1,0"
+       id="guide1922" />
+    <sodipodi:guide
+       position="199.11579,185.28134"
+       orientation="1,0"
+       id="guide1924" />
+    <sodipodi:guide
+       position="154.21451,185.81588"
+       orientation="1,0"
+       id="guide1926" />
+    <sodipodi:guide
+       position="177.55432,121.43006"
+       orientation="1,0"
+       id="guide1928" />
+    <sodipodi:guide
+       position="205.80803,200.33259"
+       orientation="0,-1"
+       id="guide1930" />
+    <sodipodi:guide
+       position="209.39881,188.70983"
+       orientation="0,-1"
+       id="guide1932" />
+    <sodipodi:guide
+       position="192.10639,139.10045"
+       orientation="0,-1"
+       id="guide1967" />
+    <sodipodi:guide
+       position="176.53152,144.65637"
+       orientation="0,-1"
+       id="guide1969" />
+    <sodipodi:guide
+       position="187.75684,133.03015"
+       orientation="0,-1"
+       id="guide1971" />
+    <sodipodi:guide
+       position="96.761905,165.36979"
+       orientation="1,0"
+       id="guide1973" />
+    <sodipodi:guide
+       position="142.59175,133.00025"
+       orientation="1,0"
+       id="guide1975" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1917"
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.264583"
+       d="M 17.105249,96.641696 H 154.87757 181.3359 c 5.93573,0 12.60745,-7.308073 17.99618,-4.819196 8.6042,3.973994 9.17116,17.59636 0,21.00338 -5.50513,2.04513 -11.5568,-4.19084 -17.42921,-4.25223 l -27.11979,-0.28348 H 17.105249 L 7.0826417,102.35472 Z"
+       sodipodi:nodetypes="ccsssscccc"
+       inkscape:export-xdpi="31.92"
+       inkscape:export-ydpi="31.92" />
+    <path
+       id="rect1917-7"
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       d="M 154.74367,96.667411 H 181.202 c 5.93573,0 12.60745,-7.30807 17.99618,-4.81919 8.6042,3.97399 9.17116,17.596359 0,21.003379 -5.50513,2.04513 -11.5568,-4.19084 -17.42921,-4.25223 l -38.64806,-0.3092 0.0945,-11.648479 z"
+       sodipodi:nodetypes="cssssccc"
+       inkscape:export-xdpi="31.92"
+       inkscape:export-ydpi="31.92" />
+    <path
+       id="rect1917-9"
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.264583"
+       d="m 96.856401,150.45375 57.492009,1.89753 h 8.99583 c 5.93573,0 9.01668,-7.11908 14.40541,-4.63021 8.6042,3.974 9.17116,17.59636 0,21.00338 -5.50513,2.04513 -7.96824,-4.26891 -13.83844,-4.44122 l -9.65729,-0.28348 -57.492015,2.23795 -5.825243,-8.33815 z"
+       sodipodi:nodetypes="ccsssscccc"
+       inkscape:export-xdpi="31.92"
+       inkscape:export-ydpi="31.92"
+       inkscape:export-filename="C:\Users\ovo\src\github.com\flightagent\fainstruments\m20-altimeter\needle_altimeter_thousands_new.png" />
+    <path
+       id="rect1917-7-9"
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       d="m 154.21451,152.34363 8.99583,0.0334 c 5.93569,0.022 9.01668,-7.11908 14.40541,-4.6302 8.6042,3.97399 9.17116,17.59636 0,21.00338 -5.50513,2.04513 -7.96633,-4.35552 -13.83844,-4.44122 l -21.18556,0.15017 v -12.4901 z"
+       sodipodi:nodetypes="cssssccc"
+       inkscape:export-xdpi="31.92"
+       inkscape:export-ydpi="31.92"
+       inkscape:export-filename="C:\Users\ovo\src\github.com\flightagent\fainstruments\m20-altimeter\needle_altimeter_thousands_new.png" />
+  </g>
+</svg>
