@@ -33,6 +33,7 @@ Use Flight Agent yaml format to define gauge and generate svg from there. Only: 
 * Some changes like moving texts can be done on [Inkscape][inkscape].
 * Exporting to .png can be done from [Inkscape][inkscape], selection "BEST Quality" in advanced mode and watch on resolution.
 * Final shadows or specific backgrounds can be add with [Gimp][gimp] over the png.
+* Using [Tinypng](https://tinypng.com/) or another, the size of the image can be greatly reduced.
 
 [gimp]: https://www.gimp.org/
 [inkscape]: https://inkscape.org/
