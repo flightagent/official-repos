@@ -52,3 +52,7 @@ Actions predefined: (work as predefined events)
  - loadflight
  
  See directories "action-" for examples
+
+## repos.yaml
+
+The repos.yaml file is the list of official and notified repositories for panels and events/actions
