@@ -1,0 +1,20 @@
+author: flightagent
+date: 2021-01-09
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+actions:
+  - action:
+    code: closefs
+    event: shutdownall
+    execute: closefs
+  - action:
+    code: closefa
+    event: shutdownall
+    execute: closefa
+  - action:
+    code: osshutdown
+    event: shutdownall
+    execute: shutdown

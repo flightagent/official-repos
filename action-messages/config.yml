@@ -1,0 +1,21 @@
+author: flightagent
+date: 2021-01-09
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+actions:
+  - action:
+    code: welcome
+    event: start #default event
+    execute: showtext
+    args:
+      - Flight Agent connected
+    timeout: 5000
+  - action:
+    code: saygoodby
+    event: exit #default event
+    execute: showtext
+    args:
+      - Flight Agent disconnected

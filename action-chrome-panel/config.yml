@@ -1,0 +1,20 @@
+author: flightagent
+date: 2021-01-09
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+actions:
+  - action:
+    event: start
+    code: start-main-panel
+    command: cmd
+    #disabled: true
+    args: 
+      - "/C"
+      - start
+      - chrome #msedge #
+      - http://localhost:8080/gauges/index.html?panel=main
+      - --kiosk #  --start-fullscreen
+      #- --window-position=100,100 ##coords to open on secondary monitor

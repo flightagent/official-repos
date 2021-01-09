@@ -3,13 +3,15 @@
 
 ![FA panel](https://img.shields.io/badge/FlightAgent-panel-blue)
 
-## Panels in this repo
+## Creating repos for instrument and actons
 
-- M20 panel for a custom cockpit, consist of two panels:
-  - m20-panel-main
-  - m20-panel-radio
+*"action-"* for actions repositories
+*"-panel-"* for panel repositories
+*other*, for instruments repositories
 
-## Contributing or creating your own repo
+See examples.
+
+## Creating your own repo
 
 Include a README.md and a badge
 
@@ -19,8 +21,34 @@ Include a README.md and a badge
 
 Include fodler with panels and instruments.
 
-Notify flightagent.pro@gmail.com or create PR on this project changing file repos.yml
+## Contributing
 
-## repos.yaml
+The panel will be added as an official panel. So every other can use it.
 
-The repos.yaml file is the list of official and notified repositories for panels
+Notify flightagent.pro@gmail.com to be added to the official list
+
+## Actions Repositories
+
+*actions*, if already defined one, prevails the order
+
+A repository can be used por actions
+
+Events can be predefined or not.
+
+Predefined events:
+ - start: when the app starts
+ - exit: when the app finishes
+ - startfs: when a sim starts
+ - ...
+
+Actions predefined: (work as predefined events)
+ - closefa
+ - restartfa
+ - closefs
+ - osreboot
+ - osshutdown
+ - setsimvar
+ - showtext
+ - loadflight
+ 
+ See directories "action-" for examples

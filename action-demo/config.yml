@@ -1,0 +1,18 @@
+author: flightagent
+date: 2021-01-09
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+actions:
+  - action:
+    code: closeMIP
+    event: closeMIP
+    url: http://192.168.1.36:8080/api/v1/event/osshutdown
+    timeout: 5000
+  - action:
+    code: testurl
+    event: testurl
+    url: http://192.168.1.36:8080/api/v1/event/welcome1
+    timeout: 5000
