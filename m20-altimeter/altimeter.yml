@@ -7,7 +7,7 @@ outputsvg: altimeter.svg
 dimensions:
   w: 400
   h: 400
-backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-altimeter/altimeter.png
+backgroundImage: https://github.com/flightagent/official-repos/raw/master/m20-altimeter/altimeter.png
 ranges:
   - range:
     name: inHgwindow

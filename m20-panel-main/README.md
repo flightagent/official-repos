@@ -8,7 +8,7 @@ Modify config.yml and add in modules section:
   panels:
     - panel:
       name: repo
-      repository: github.com/flightagent/fainstruments/m20-panel-main
+      repository: github.com/flightagent/official-repos/m20-panel-main
 ```
 
 Example image:

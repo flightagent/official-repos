@@ -7,7 +7,7 @@ outputsvg: airspeed.svg
 dimensions:
   w: 400
   h: 400
-backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-airspeed/airspeed.png
+backgroundImage: https://github.com/flightagent/official-repos/raw/master/m20-airspeed/airspeed.png
 ranges:
   - range: #yellow
     name: yellow

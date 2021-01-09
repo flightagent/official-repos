@@ -7,7 +7,7 @@ outputsvg: vsi.svg
 dimensions:
   w: 400
   h: 400
-backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-vsi/vsi.png
+backgroundImage: https://github.com/flightagent/official-repos/raw/master/m20-vsi/vsi.png
 ranges:
   - range: #ticks
     name: ticks

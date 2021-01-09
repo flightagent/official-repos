@@ -9,40 +9,40 @@ panel:
   name: M20-panel-main
   gauges:
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-leftfuel
+      repository: github.com/flightagent/official-repos/m20-leftfuel
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-rightfuel
+      repository: github.com/flightagent/official-repos/m20-rightfuel
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-oiltemp
+      repository: github.com/flightagent/official-repos/m20-oiltemp
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-oilpress
+      repository: github.com/flightagent/official-repos/m20-oilpress
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-egt
+      repository: github.com/flightagent/official-repos/m20-egt
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-cht
+      repository: github.com/flightagent/official-repos/m20-cht
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-oat
+      repository: github.com/flightagent/official-repos/m20-oat
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-amps
+      repository: github.com/flightagent/official-repos/m20-amps
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-airspeed
+      repository: github.com/flightagent/official-repos/m20-airspeed
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-turncoordinator
+      repository: github.com/flightagent/official-repos/m20-turncoordinator
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-attitude
+      repository: github.com/flightagent/official-repos/m20-attitude
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-hsi
+      repository: github.com/flightagent/official-repos/m20-hsi
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-altimeter
+      repository: github.com/flightagent/official-repos/m20-altimeter
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-vsi
+      repository: github.com/flightagent/official-repos/m20-vsi
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-vor2
+      repository: github.com/flightagent/official-repos/m20-vor2
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-adf
+      repository: github.com/flightagent/official-repos/m20-adf
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-compass
+      repository: github.com/flightagent/official-repos/m20-compass
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-manifold
+      repository: github.com/flightagent/official-repos/m20-manifold
     - gauge: 
-      repository: github.com/flightagent/fainstruments/m20-rpm
+      repository: github.com/flightagent/official-repos/m20-rpm

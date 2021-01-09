@@ -6,7 +6,7 @@ outputsvg: altimeter_inches.svg
 dimensions:
   w: 400
   h: 400
-backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-altimeter/altimeter_inches.png
+backgroundImage: https://github.com/flightagent/official-repos/raw/master/m20-altimeter/altimeter_inches.png
 ranges:
   - range:
     name: ticks

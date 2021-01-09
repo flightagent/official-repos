@@ -6,7 +6,7 @@ outputsvg: airspeed-temp.svg
 dimensions:
   w: 400
   h: 400
-backgroundImage: https://github.com/flightagent/fainstruments/raw/master/m20-airspeed/airspeed_back.png
+backgroundImage: https://github.com/flightagent/official-repos/raw/master/m20-airspeed/airspeed_back.png
 ranges:
   - range: #ticks
     name: ticks
