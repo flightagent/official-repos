@@ -1,3 +1,3 @@
 # auto-start-chrome
 
-Open (maximized) panel in chrome when app starts or exits
+Open panel in chrome when app starts or exits

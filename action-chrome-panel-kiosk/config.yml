@@ -16,3 +16,5 @@ actions:
       - start
       - chrome #msedge #
       - http://localhost:8080/gauges/index.html?panel=main
+      - --kiosk #  --start-fullscreen
+      #- --window-position=100,100 ##coords to open on secondary monitor
