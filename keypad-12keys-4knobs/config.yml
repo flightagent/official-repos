@@ -1,0 +1,212 @@
+author: flightagent
+date: 2026-05-28
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+keyboard:
+  buttons_count: 12
+  knobs_count: 4
+  layers:
+    "0":
+      bindings:
+        - key:
+            type: button
+            index: 0
+          macro:
+            type: mouse
+            mouse:
+              action: drag
+              buttons: 2
+              dx: 0
+              dy: 0
+              delta: 0
+              modifier: 0
+        - key:
+            type: button
+            index: 1
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 5
+        - key:
+            type: button
+            index: 2
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 6
+        - key:
+            type: button
+            index: 3
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 7
+        - key:
+            type: button
+            index: 4
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 6
+        - key:
+            type: button
+            index: 5
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 8
+        - key:
+            type: button
+            index: 6
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 9
+        - key:
+            type: button
+            index: 7
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 10
+        - key:
+            type: button
+            index: 8
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 11
+        - key:
+            type: button
+            index: 9
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 12
+        - key:
+            type: button
+            index: 10
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 13
+        - key:
+            type: button
+            index: 11
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 14
+        - key:
+            type: knob
+            index: 0
+            action: ccw
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 15
+        - key:
+            type: knob
+            index: 0
+            action: cw
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 16
+        - key:
+            type: knob
+            index: 0
+            action: press
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 17
+        - key:
+            type: knob
+            index: 1
+            action: ccw
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 0
+                code: 18
+        - key:
+            type: knob
+            index: 1
+            action: cw
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 0
+                code: 19
+        - key:
+            type: knob
+            index: 1
+            action: press
+          macro:
+            type: keyboard
+            presses:
+              - modifiers: 0
+                code: 20
+        - key:
+            type: knob
+            index: 2
+            action: ccw
+          macro:
+            type: media
+            media: 234
+        - key:
+            type: knob
+            index: 2
+            action: cw
+          macro:
+            type: media
+            media: 233
+        - key:
+            type: knob
+            index: 2
+            action: press
+          macro:
+            type: media
+            media: 226
+        - key:
+            type: knob
+            index: 3
+            action: ccw
+          macro:
+            type: media
+            media: 234
+        - key:
+            type: knob
+            index: 3
+            action: cw
+          macro:
+            type: media
+            media: 233
+        - key:
+            type: knob
+            index: 3
+            action: press
+          macro:
+            type: media
+            media: 226
+      led:
+        mode: press
+        color: orange
