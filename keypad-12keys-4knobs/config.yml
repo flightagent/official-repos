@@ -14,6 +14,7 @@ keyboard:
         - key:
             type: button
             index: 0
+          msfs_action: HEADING_BUG_INC
           macro:
             type: keyboard
             presses:
@@ -22,6 +23,7 @@ keyboard:
         - key:
             type: button
             index: 1
+          msfs_action: HEADING_BUG_DEC
           macro:
             type: keyboard
             presses:
@@ -30,6 +32,7 @@ keyboard:
         - key:
             type: button
             index: 2
+          msfs_action: ALTITUDE_BUG_INC
           macro:
             type: keyboard
             presses:
@@ -38,6 +41,7 @@ keyboard:
         - key:
             type: button
             index: 3
+          msfs_action: ALTITUDE_BUG_DEC
           macro:
             type: keyboard
             presses:
@@ -46,6 +50,7 @@ keyboard:
         - key:
             type: button
             index: 4
+          msfs_action: SPOILERS_ARM_TOGGLE
           macro:
             type: keyboard
             presses:
@@ -54,6 +59,7 @@ keyboard:
         - key:
             type: button
             index: 5
+          msfs_action: GEAR_TOGGLE
           macro:
             type: keyboard
             presses:
@@ -62,6 +68,7 @@ keyboard:
         - key:
             type: button
             index: 6
+          msfs_action: FLAPS_INC
           macro:
             type: keyboard
             presses:
@@ -70,6 +77,7 @@ keyboard:
         - key:
             type: button
             index: 7
+          msfs_action: FLAPS_DEC
           macro:
             type: keyboard
             presses:
@@ -78,6 +86,7 @@ keyboard:
         - key:
             type: button
             index: 8
+          msfs_action: PARKING_BRAKES
           macro:
             type: keyboard
             presses:
@@ -86,6 +95,7 @@ keyboard:
         - key:
             type: button
             index: 9
+          msfs_action: STROBES_TOGGLE
           macro:
             type: keyboard
             presses:
@@ -94,6 +104,7 @@ keyboard:
         - key:
             type: button
             index: 10
+          msfs_action: LANDING_LIGHTS_TOGGLE
           macro:
             type: keyboard
             presses:
@@ -102,6 +113,7 @@ keyboard:
         - key:
             type: button
             index: 11
+          msfs_action: BEACON_LIGHTS_TOGGLE
           macro:
             type: keyboard
             presses:
@@ -111,6 +123,7 @@ keyboard:
             type: knob
             index: 0
             action: ccw
+          msfs_action: NAV_LIGHTS_TOGGLE
           macro:
             type: keyboard
             presses:
@@ -120,6 +133,7 @@ keyboard:
             type: knob
             index: 0
             action: cw
+          msfs_action: TAXI_LIGHTS_TOGGLE
           macro:
             type: keyboard
             presses:
@@ -129,6 +143,7 @@ keyboard:
             type: knob
             index: 0
             action: press
+          msfs_action: LOGO_LIGHTS_TOGGLE
           macro:
             type: keyboard
             presses:
@@ -138,6 +153,7 @@ keyboard:
             type: knob
             index: 1
             action: ccw
+          msfs_action: CABIN_LIGHTS_TOGGLE
           macro:
             type: keyboard
             presses:
@@ -147,6 +163,7 @@ keyboard:
             type: knob
             index: 1
             action: cw
+          msfs_action: PANEL_LIGHTS_TOGGLE
           macro:
             type: keyboard
             presses:
@@ -156,6 +173,7 @@ keyboard:
             type: knob
             index: 1
             action: press
+          msfs_action: PEDESTAL_LIGHTS_TOGGLE
           macro:
             type: keyboard
             presses:
@@ -165,6 +183,7 @@ keyboard:
             type: knob
             index: 2
             action: ccw
+          msfs_action: GLARESHIELD_LIGHTS_TOGGLE
           macro:
             type: media
             media: 234
@@ -172,6 +191,7 @@ keyboard:
             type: knob
             index: 2
             action: cw
+          msfs_action: TOGGLE_MASTER_BATTERY
           macro:
             type: media
             media: 233
@@ -179,6 +199,7 @@ keyboard:
             type: knob
             index: 2
             action: press
+          msfs_action: TOGGLE_MASTER_ALTERNATOR
           macro:
             type: media
             media: 226
@@ -186,6 +207,7 @@ keyboard:
             type: knob
             index: 3
             action: ccw
+          msfs_action: TOGGLE_MASTER_IGNITION_SWITCH
           macro:
             type: media
             media: 234
@@ -193,6 +215,7 @@ keyboard:
             type: knob
             index: 3
             action: cw
+          msfs_action: TOGGLE_FUEL_VALVE_ENG1
           macro:
             type: media
             media: 233
@@ -200,6 +223,7 @@ keyboard:
             type: knob
             index: 3
             action: press
+          msfs_action: TOGGLE_WATER_RUDDER
           macro:
             type: media
             media: 226
