@@ -1,0 +1,16 @@
+author: flightagent
+date: 2026-05-28
+version: v0.0.1
+copyright: flightagent.pro@gmail.com
+license: MIT
+contact: flightagent.pro@gmail.com
+web: flightagent.com
+hf8:
+  engine: 50
+  gear: 100
+  flaps: 100
+  gforce: 100
+  airbrake: 100
+  stall: 100
+  suspension: 100
+  land: 100
