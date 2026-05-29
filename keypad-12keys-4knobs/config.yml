@@ -185,48 +185,60 @@ keyboard:
             action: ccw
           msfs_action: GLARESHIELD_LIGHTS_TOGGLE
           macro:
-            type: media
-            media: 234
+            type: keyboard
+            presses:
+              - modifiers: 0
+                code: 21
         - key:
             type: knob
             index: 2
             action: cw
           msfs_action: TOGGLE_MASTER_BATTERY
           macro:
-            type: media
-            media: 233
+            type: keyboard
+            presses:
+              - modifiers: 0
+                code: 22
         - key:
             type: knob
             index: 2
             action: press
           msfs_action: TOGGLE_MASTER_ALTERNATOR
           macro:
-            type: media
-            media: 226
+            type: keyboard
+            presses:
+              - modifiers: 0
+                code: 23
         - key:
             type: knob
             index: 3
             action: ccw
           msfs_action: TOGGLE_MASTER_IGNITION_SWITCH
           macro:
-            type: media
-            media: 234
+            type: keyboard
+            presses:
+              - modifiers: 0
+                code: 24
         - key:
             type: knob
             index: 3
             action: cw
           msfs_action: TOGGLE_FUEL_VALVE_ENG1
           macro:
-            type: media
-            media: 233
+            type: keyboard
+            presses:
+              - modifiers: 0
+                code: 25
         - key:
             type: knob
             index: 3
             action: press
           msfs_action: TOGGLE_WATER_RUDDER
           macro:
-            type: media
-            media: 226
+            type: keyboard
+            presses:
+              - modifiers: 0
+                code: 26
       led:
         mode: press
         color: orange
