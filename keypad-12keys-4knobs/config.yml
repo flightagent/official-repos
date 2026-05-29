@@ -15,14 +15,10 @@ keyboard:
             type: button
             index: 0
           macro:
-            type: mouse
-            mouse:
-              action: drag
-              buttons: 2
-              dx: 0
-              dy: 0
-              delta: 0
-              modifier: 0
+            type: keyboard
+            presses:
+              - modifiers: 7
+                code: 4
         - key:
             type: button
             index: 1
