@@ -6,6 +6,7 @@ license: MIT
 contact: flightagent.pro@gmail.com
 web: flightagent.com
 hf8:
+  general: 70
   engine: 50
   gear: 100
   flaps: 100
@@ -14,3 +15,9 @@ hf8:
   stall: 100
   suspension: 100
   land: 100
+  gear_drag_speed: 150
+  gear_drag_intensity: 50
+  flaps_drag_speed: 140
+  flaps_drag_intensity: 50
+  runway_joint_intensity: 40
+  runway_joint_distance: 75
