@@ -8,22 +8,25 @@ web: flightagent.com
 keyboard:
   buttons_count: 12
   knobs_count: 4
+  layout: "4x3"
   layers:
     "0":
       bindings:
         - key:
             type: button
             index: 0
-          msfs_action: HEADING_BUG_INC
+          msfs_action: KEY_SWITCH_VR
+          button_name: VR
           macro:
             type: keyboard
             presses:
               - modifiers: 7
-                code: 4
+                code: 7
         - key:
             type: button
             index: 1
-          msfs_action: HEADING_BUG_DEC
+          msfs_action: KEY_RESET_CAMERA_VR
+          button_name: Center VR
           macro:
             type: keyboard
             presses:
@@ -32,7 +35,8 @@ keyboard:
         - key:
             type: button
             index: 2
-          msfs_action: ALTITUDE_BUG_INC
+          msfs_action: KEY_INPUTS_VR_TOOLBAR_TOGGLE
+          button_name: VR Menu
           macro:
             type: keyboard
             presses:
